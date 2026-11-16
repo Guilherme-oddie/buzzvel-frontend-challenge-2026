@@ -24,6 +24,11 @@
   --text-h3--font-weight: 800;
   --text-h3--letter-spacing: -0.025em;
 
+  --text-h4: 1.75rem;
+  --text-h4--line-height: 2rem;
+  --text-h4--font-weight: 800;
+  --text-h4--letter-spacing: -0.75px;
+
   --text-h5: 1.25rem;
   --text-h5--line-height: 1.75rem;
   --text-h5--font-weight: 700;
@@ -38,6 +43,11 @@
   --text-subtitle2--line-height: 1.5rem;
   --text-subtitle2--font-weight: 400;
   --text-subtitle2--letter-spacing: 0em;
+
+  --text-quotes: 1.25rem;
+  --text-quotes--line-height: 2rem;
+  --text-quotes--font-weight: 600;
+  --text-quotes--letter-spacing: 0em;
 
   --text-body1: 0.875rem;
   --text-body1--line-height: 1.5rem;
@@ -65,11 +75,17 @@
       --text-h2--line-height: 4rem;
       --text-h3: 3rem;
       --text-h3--line-height: 3.5rem;
+      --text-h4: 2.5rem;
+      --text-h4--line-height: 3rem;
+      --text-h4--letter-spacing: -1.1px;
       --text-h5--line-height: 2rem;
       --text-subtitle1: 1.125rem;
       --text-subtitle1--line-height: 1.75rem;
       --text-subtitle2: 1rem;
       --text-subtitle2--line-height: 1.75rem;
+      --text-quotes: 1.875rem;
+      --text-quotes--line-height: 2.75rem;
+      --text-quotes--letter-spacing: -0.025em;
     }
   }
 }
@@ -86,6 +102,10 @@
   @apply font-heading text-h3;
 }
 
+@utility typography-h4 {
+  @apply font-heading text-h4;
+}
+
 @utility typography-h5 {
   @apply font-heading text-h5;
 }
@@ -96,6 +116,10 @@
 
 @utility typography-subtitle2 {
   @apply font-sans text-subtitle2;
+}
+
+@utility typography-quotes {
+  @apply font-heading text-quotes;
 }
 
 @utility typography-body1 {

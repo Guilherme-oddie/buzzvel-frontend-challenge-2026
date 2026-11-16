@@ -1,0 +1,145 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Typography > renders as h2 with native props 1`] = `
+<DocumentFragment>
+  <h2
+    aria-label="Course title"
+    class="typography-h1 text-primary"
+    id="course-title"
+  >
+    Learn at your own pace
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography > renders as span with native props 1`] = `
+<DocumentFragment>
+  <span
+    aria-label="Course title"
+    class="typography-h1 text-primary"
+    id="course-title"
+  >
+    Learn at your own pace
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography > renders the body1 variant 1`] = `
+<DocumentFragment>
+  <p
+    class="typography-body1"
+  >
+    Learn from experienced teachers through practical, flexible courses.
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Typography > renders the caption variant 1`] = `
+<DocumentFragment>
+  <p
+    class="typography-caption"
+  >
+    Supporting details and course information.
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Typography > renders the h1 variant 1`] = `
+<DocumentFragment>
+  <p
+    class="typography-h1"
+  >
+    Build skills that open new doors.
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Typography > renders the h2 variant 1`] = `
+<DocumentFragment>
+  <p
+    class="typography-h2"
+  >
+    Learn at your own pace.
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Typography > renders the h3 variant 1`] = `
+<DocumentFragment>
+  <p
+    class="typography-h3"
+  >
+    Find your next learning path.
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Typography > renders the h4 variant 1`] = `
+<DocumentFragment>
+  <p
+    class="typography-h4"
+  >
+    Take the next step in your learning journey.
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Typography > renders the h5 variant 1`] = `
+<DocumentFragment>
+  <p
+    class="typography-h5"
+  >
+    Build confidence with every lesson.
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Typography > renders the overline variant 1`] = `
+<DocumentFragment>
+  <p
+    class="typography-overline"
+  >
+    Explore your next step
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Typography > renders the quotes variant 1`] = `
+<DocumentFragment>
+  <p
+    class="typography-quotes"
+  >
+    The lessons helped me turn new ideas into practical skills.
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Typography > renders the subtitle1 variant 1`] = `
+<DocumentFragment>
+  <p
+    class="typography-subtitle1"
+  >
+    Practical lessons for your next step.
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Typography > renders the subtitle2 variant 1`] = `
+<DocumentFragment>
+  <p
+    class="typography-subtitle2"
+  >
+    Every course includes practical exercises designed to turn knowledge into action.
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Typography > renders with default props 1`] = `
+<DocumentFragment>
+  <p
+    class="typography-body1"
+  >
+    Build practical skills
+  </p>
+</DocumentFragment>
+`;
