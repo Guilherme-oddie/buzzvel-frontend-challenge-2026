@@ -1,0 +1,201 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navbar > renders with custom props 1`] = `
+<DocumentFragment>
+  <header
+    class="relative z-30 border-b border-line bg-surface"
+  >
+    <div
+      class="mx-auto flex h-[68px] max-w-[1280px] items-center justify-between px-5 min-[960px]:grid min-[960px]:h-[69px] min-[960px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] min-[960px]:px-[clamp(24px,6.25vw,80px)]"
+    >
+      <a
+        aria-label="Luma home"
+        class="inline-flex min-h-11 w-fit items-center rounded-sm outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
+        href="/home"
+      >
+        <img
+          alt="Luma"
+          data-nimg="1"
+          decoding="async"
+          height="17"
+          loading="lazy"
+          src="/brand/luma.svg"
+          style="color: transparent;"
+          width="54"
+        />
+      </a>
+      <nav
+        aria-label="Main navigation"
+        class="hidden min-[960px]:block"
+      >
+        <ul
+          class="flex items-center gap-8"
+        >
+          <li
+            class=""
+          >
+            <a
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink "
+              href="#courses"
+            >
+              Courses
+            </a>
+          </li>
+          <li
+            class=""
+          >
+            <a
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink "
+              href="#for-teams"
+            >
+              For Teams
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="hidden items-center gap-2 justify-self-end min-[960px]:flex"
+      >
+        <a
+          class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary px-5 py-2.5 font-bold text-white hover:brightness-95 "
+          href="/courses"
+        >
+          Browse courses
+        </a>
+      </div>
+      <button
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+        aria-label="Open menu"
+        class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 h-9 w-9 shrink-0 p-1.5 text-ink hover:bg-line/40 min-[960px]:hidden"
+        type="button"
+      >
+        <img
+          alt=""
+          aria-hidden="true"
+          data-nimg="1"
+          decoding="async"
+          height="24"
+          loading="lazy"
+          src="/icons/menu.svg"
+          style="color: transparent;"
+          width="24"
+        />
+      </button>
+    </div>
+  </header>
+</DocumentFragment>
+`;
+
+exports[`Navbar > renders with default props 1`] = `
+<DocumentFragment>
+  <header
+    class="relative z-30 border-b border-line bg-surface"
+  >
+    <div
+      class="mx-auto flex h-[68px] max-w-[1280px] items-center justify-between px-5 min-[960px]:grid min-[960px]:h-[69px] min-[960px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] min-[960px]:px-[clamp(24px,6.25vw,80px)]"
+    >
+      <a
+        aria-label="Luma home"
+        class="inline-flex min-h-11 w-fit items-center rounded-sm outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
+        href="#top"
+      >
+        <img
+          alt="Luma"
+          data-nimg="1"
+          decoding="async"
+          height="17"
+          loading="lazy"
+          src="/brand/luma.svg"
+          style="color: transparent;"
+          width="54"
+        />
+      </a>
+      <nav
+        aria-label="Main navigation"
+        class="hidden min-[960px]:block"
+      >
+        <ul
+          class="flex items-center gap-8"
+        >
+          <li
+            class=""
+          >
+            <a
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink "
+              href="#courses"
+            >
+              Courses
+            </a>
+          </li>
+          <li
+            class=""
+          >
+            <a
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink "
+              href="#for-teams"
+            >
+              For Teams
+            </a>
+          </li>
+          <li
+            class=""
+          >
+            <a
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink "
+              href="#community"
+            >
+              Community
+            </a>
+          </li>
+          <li
+            class=""
+          >
+            <a
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink "
+              href="#about"
+            >
+              About
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="hidden items-center gap-2 justify-self-end min-[960px]:flex"
+      >
+        <a
+          class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink px-4 py-2.5"
+          href="#login"
+        >
+          Log in
+        </a>
+        <a
+          class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary px-5 py-2.5 font-bold text-white hover:brightness-95 "
+          href="#start-learning"
+        >
+          Start learning
+        </a>
+      </div>
+      <button
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+        aria-label="Open menu"
+        class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 h-9 w-9 shrink-0 p-1.5 text-ink hover:bg-line/40 min-[960px]:hidden"
+        type="button"
+      >
+        <img
+          alt=""
+          aria-hidden="true"
+          data-nimg="1"
+          decoding="async"
+          height="24"
+          loading="lazy"
+          src="/icons/menu.svg"
+          style="color: transparent;"
+          width="24"
+        />
+      </button>
+    </div>
+  </header>
+</DocumentFragment>
+`;

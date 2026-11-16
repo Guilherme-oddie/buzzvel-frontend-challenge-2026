@@ -55,9 +55,10 @@
 
 ## Tests and validation
 
-- Add focused spec/test files for UI components, form/schema validation, or where neighboring files already establish that pattern. Add regression tests for nontrivial hooks/utilities when behavior warrants them; do not add tests for trivial copy or styling changes merely to increase coverage.
-- Keep tests beside the component or utility they cover. Test observable behavior, relevant props, events, interactions, validation and failure states.
-- Follow existing snapshot conventions when present; do not rely on snapshots alone for interactive behavior. Keep end-to-end tests focused on critical page flows.
+- Keep component `.spec.tsx` files concise and colocated. For current UI work, focus on public props, children and Typography variants.
+- Use external `toMatchSnapshot()` snapshots in neighboring `__snapshots__` directories for default rendering and meaningful prop or variant output. Review generated snapshots before committing them.
+- Include small interaction tests when controls change state, invoke callbacks or require keyboard or disabled behavior. Explain their purpose to the user when adding them.
+- Add focused validation and regression tests for forms, schemas and nontrivial hooks or utilities when their behavior warrants them. Keep end-to-end tests focused on critical page flows.
 - Run relevant configured tests and lint/type checks; run the production build for application or build configuration changes. Do not invent scripts that do not exist yet.
 - Check UI changes on desktop, mobile and intermediate widths, including keyboard navigation, visible focus and reduced-motion behavior where applicable.
 - Record only commands actually run and their results; disclose skipped or failing checks accurately.
