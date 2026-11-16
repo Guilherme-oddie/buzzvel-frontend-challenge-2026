@@ -6,6 +6,12 @@ Responsive page for Buzzvel's frontend coding challenge.
 
 Next.js App Router, React, TypeScript, Tailwind CSS and pnpm.
 
+## Typography
+
+Use `Typography` from `@/components/ui/atoms/Typography`: `variant` controls appearance; `as` controls the HTML tag. The Storybook catalogue documents the inspected Figma styles. Inter and Plus Jakarta Sans are served locally with their OFL licenses.
+
+Mobile values apply below 960px; this breakpoint is an implementation decision. `caption` is a local name for the measured footer text, which has no named Figma style. Shared `typography-*` classes can also style native controls.
+
 ## Workflow
 
 Track work in the [public project](https://github.com/users/Guilherme-oddie/projects/1). Feature PRs target `dev`; releases promote validated changes to `main`.
