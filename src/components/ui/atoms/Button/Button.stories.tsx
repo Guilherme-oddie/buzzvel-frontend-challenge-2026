@@ -44,7 +44,13 @@ function renderVariants() {
           <Typography as="h2" variant="caption">
             {sample.variant}
           </Typography>
-          <div className={sample.variant === 'link-inverse' ? 'rounded-lg bg-primary p-4' : ''}>
+          <div
+            className={
+              sample.variant === 'link-inverse'
+                ? 'flex justify-center rounded-lg bg-primary p-4'
+                : ''
+            }
+          >
             <Button
               variant={sample.variant}
               aria-label={sample.variant === 'icon' ? sample.label : undefined}
