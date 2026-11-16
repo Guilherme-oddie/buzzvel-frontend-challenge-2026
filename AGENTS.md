@@ -48,6 +48,7 @@
 - Keep `How to test` practical, usually three or four steps covering the main flow and important regressions. Disclose known failures and limitations there when relevant.
 - Review the diff before requesting review; check a checklist item only when the corresponding work has actually been performed.
 - Include desktop and mobile screenshots for visual changes. When providing a copyable PR body in chat, return the complete body in one fenced `md` block.
+- Upload screenshots directly to PR descriptions. Keep local captures outside the repository; do not commit screenshots or send them in chat.
 - Confirm the exact content before posting PR/issue comments or external messages. A requested review report does not authorize replies or resolving review threads.
 - Squash feature PRs after review and checks. After final QA, open `release/<version>` into `main`, preserve history when merging the release PR, then tag and publish `v<version>`.
 
