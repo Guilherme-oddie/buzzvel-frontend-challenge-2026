@@ -42,6 +42,15 @@ export const typographySamples: readonly TypographySample[] = [
     mobile: { fontSize: 32, lineHeight: 36, letterSpacing: -0.8 },
   },
   {
+    variant: 'h4',
+    text: 'Take the next step in your learning journey.',
+    fontFamily: 'Plus Jakarta Sans',
+    fontWeight: 800,
+    desktop: { fontSize: 40, lineHeight: 48, letterSpacing: -1.1 },
+    mobile: { fontSize: 28, lineHeight: 32, letterSpacing: -0.75 },
+    note: 'Named styles Desktop/H4 (4:1093) and Mobile/H4 (4:1094).',
+  },
+  {
     variant: 'h5',
     text: 'Build confidence with every lesson.',
     fontFamily: 'Plus Jakarta Sans',
@@ -64,6 +73,15 @@ export const typographySamples: readonly TypographySample[] = [
     fontWeight: 400,
     desktop: { fontSize: 16, lineHeight: 28, letterSpacing: 0 },
     mobile: { fontSize: 14, lineHeight: 24, letterSpacing: 0 },
+  },
+  {
+    variant: 'quotes',
+    text: 'The lessons helped me turn new ideas into practical skills.',
+    fontFamily: 'Plus Jakarta Sans',
+    fontWeight: 600,
+    desktop: { fontSize: 30, lineHeight: 44, letterSpacing: -0.75 },
+    mobile: { fontSize: 20, lineHeight: 32, letterSpacing: 0 },
+    note: 'Named styles Desktop/quotes (7:1307) and Mobile/quotes (18:712).',
   },
   {
     variant: 'body1',
