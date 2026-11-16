@@ -6,7 +6,7 @@ exports[`Navbar > renders with custom props 1`] = `
     class="relative z-30 border-b border-line bg-surface"
   >
     <div
-      class="mx-auto flex h-[68px] max-w-[1280px] items-center justify-between px-5 min-[960px]:grid min-[960px]:h-[69px] min-[960px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] min-[960px]:px-[clamp(24px,6.25vw,80px)]"
+      class="mx-auto flex h-17 max-w-7xl items-center justify-between px-5 min-[960px]:grid min-[960px]:h-17.25 min-[960px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] min-[960px]:px-[clamp(24px,6.25vw,80px)]"
     >
       <a
         aria-label="Luma home"
@@ -35,7 +35,8 @@ exports[`Navbar > renders with custom props 1`] = `
             class=""
           >
             <a
-              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary"
+              aria-current="location"
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
               href="#courses"
             >
               Courses
@@ -45,7 +46,7 @@ exports[`Navbar > renders with custom props 1`] = `
             class=""
           >
             <a
-              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary"
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
               href="#for-teams"
             >
               For Teams
@@ -57,7 +58,7 @@ exports[`Navbar > renders with custom props 1`] = `
         class="hidden items-center gap-2 justify-self-end min-[960px]:flex"
       >
         <a
-          class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-5 py-2.5 focus-visible:outline-primary"
+          class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-5 py-2.5 focus-visible:outline-primary aria-[current=location]:bg-ink"
           href="/courses"
         >
           Browse courses
@@ -87,7 +88,7 @@ exports[`Navbar > renders with default props 1`] = `
     class="relative z-30 border-b border-line bg-surface"
   >
     <div
-      class="mx-auto flex h-[68px] max-w-[1280px] items-center justify-between px-5 min-[960px]:grid min-[960px]:h-[69px] min-[960px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] min-[960px]:px-[clamp(24px,6.25vw,80px)]"
+      class="mx-auto flex h-17 max-w-7xl items-center justify-between px-5 min-[960px]:grid min-[960px]:h-17.25 min-[960px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] min-[960px]:px-[clamp(24px,6.25vw,80px)]"
     >
       <a
         aria-label="Luma home"
@@ -116,7 +117,7 @@ exports[`Navbar > renders with default props 1`] = `
             class=""
           >
             <a
-              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary"
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
               href="#courses"
             >
               Courses
@@ -126,7 +127,7 @@ exports[`Navbar > renders with default props 1`] = `
             class=""
           >
             <a
-              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary"
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
               href="#for-teams"
             >
               For Teams
@@ -136,7 +137,7 @@ exports[`Navbar > renders with default props 1`] = `
             class=""
           >
             <a
-              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary"
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
               href="#community"
             >
               Community
@@ -146,7 +147,7 @@ exports[`Navbar > renders with default props 1`] = `
             class=""
           >
             <a
-              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary"
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
               href="#about"
             >
               About
@@ -158,13 +159,13 @@ exports[`Navbar > renders with default props 1`] = `
         class="hidden items-center gap-2 justify-self-end min-[960px]:flex"
       >
         <a
-          class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary px-4 py-2.5"
+          class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary px-4 py-2.5 aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
           href="#login"
         >
           Log in
         </a>
         <a
-          class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-5 py-2.5 focus-visible:outline-primary"
+          class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-5 py-2.5 focus-visible:outline-primary aria-[current=location]:bg-ink"
           href="#start-learning"
         >
           Start learning

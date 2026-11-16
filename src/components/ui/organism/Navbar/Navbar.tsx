@@ -13,6 +13,7 @@ export interface NavbarProps {
   primaryAction: NavigationItem;
   secondaryAction?: NavigationItem;
   brandHref?: string;
+  activeHref?: string;
   onNavigate?: (item: NavigationItem) => void;
 }
 
@@ -23,6 +24,7 @@ export function Navbar({
   primaryAction,
   secondaryAction,
   brandHref = '/',
+  activeHref,
   onNavigate,
 }: NavbarProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -75,10 +77,11 @@ export function Navbar({
         if (!event.currentTarget.contains(event.relatedTarget)) setIsMenuOpen(false);
       }}
     >
-      <div className="mx-auto flex h-[68px] max-w-[1280px] items-center justify-between px-5 min-[960px]:grid min-[960px]:h-[69px] min-[960px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] min-[960px]:px-[clamp(24px,6.25vw,80px)]">
+      <div className="mx-auto flex h-17 max-w-7xl items-center justify-between px-5 min-[960px]:grid min-[960px]:h-17.25 min-[960px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] min-[960px]:px-[clamp(24px,6.25vw,80px)]">
         <a
           href={brandHref}
           aria-label="Luma home"
+          aria-current={activeHref === brandHref ? 'location' : undefined}
           className="inline-flex min-h-11 w-fit items-center rounded-sm outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
           onClick={() => setIsMenuOpen(false)}
         >
@@ -86,7 +89,7 @@ export function Navbar({
         </a>
 
         <nav aria-label="Main navigation" className="hidden min-[960px]:block">
-          <NavigationList items={links} onSelect={selectItem} />
+          <NavigationList items={links} activeHref={activeHref} onSelect={selectItem} />
         </nav>
 
         <div className="hidden items-center gap-2 justify-self-end min-[960px]:flex">
@@ -94,7 +97,8 @@ export function Navbar({
             <Button
               href={secondaryAction.href}
               variant="text"
-              className="px-4 py-2.5"
+              aria-current={activeHref === secondaryAction.href ? 'location' : undefined}
+              className="px-4 py-2.5 aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
               onClick={() => selectItem(secondaryAction)}
             >
               {secondaryAction.label}
@@ -103,6 +107,8 @@ export function Navbar({
           <Button
             href={primaryAction.href}
             size="compact"
+            aria-current={activeHref === primaryAction.href ? 'location' : undefined}
+            className="aria-[current=location]:bg-ink"
             onClick={() => selectItem(primaryAction)}
           >
             {primaryAction.label}
@@ -128,13 +134,19 @@ export function Navbar({
           aria-label="Mobile navigation"
           className="absolute inset-x-0 top-full border-b border-line bg-surface px-5 pb-5 shadow-[0_12px_24px_-16px_rgba(23,27,44,0.2)] min-[960px]:hidden"
         >
-          <NavigationList items={links} orientation="vertical" onSelect={selectItem} />
+          <NavigationList
+            items={links}
+            orientation="vertical"
+            activeHref={activeHref}
+            onSelect={selectItem}
+          />
           <div className="mt-4 flex items-center justify-end gap-2">
             {secondaryAction && (
               <Button
                 href={secondaryAction.href}
                 variant="text"
-                className="px-4 py-2.5"
+                aria-current={activeHref === secondaryAction.href ? 'location' : undefined}
+                className="px-4 py-2.5 aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
                 onClick={() => selectItem(secondaryAction)}
               >
                 {secondaryAction.label}
@@ -143,6 +155,8 @@ export function Navbar({
             <Button
               href={primaryAction.href}
               size="compact"
+              aria-current={activeHref === primaryAction.href ? 'location' : undefined}
+              className="aria-[current=location]:bg-ink"
               onClick={() => selectItem(primaryAction)}
             >
               {primaryAction.label}

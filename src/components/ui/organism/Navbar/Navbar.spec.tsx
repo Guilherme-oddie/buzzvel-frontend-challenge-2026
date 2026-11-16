@@ -25,6 +25,7 @@ describe('Navbar', () => {
       props: {
         ...navbarMock,
         links: navbarMock.links.slice(0, 2),
+        activeHref: navbarMock.links[0].href,
         brandHref: '/home',
         primaryAction: { label: 'Browse courses', href: '/courses' },
         secondaryAction: undefined,

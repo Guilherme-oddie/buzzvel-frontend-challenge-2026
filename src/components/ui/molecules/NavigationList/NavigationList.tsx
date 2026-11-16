@@ -4,12 +4,14 @@ import type { NavigationItem } from '@/types/navigation';
 export interface NavigationListProps {
   items: readonly NavigationItem[];
   orientation?: 'horizontal' | 'vertical';
+  activeHref?: string;
   onSelect?: (item: NavigationItem) => void;
 }
 
 export function NavigationList({
   items,
   orientation = 'horizontal',
+  activeHref,
   onSelect,
 }: NavigationListProps) {
   const isVertical = orientation === 'vertical';
@@ -21,7 +23,12 @@ export function NavigationList({
           <Button
             href={item.href}
             variant="text"
-            className={isVertical ? 'w-full justify-start rounded-none py-3.5' : ''}
+            aria-current={activeHref === item.href ? 'location' : undefined}
+            className={
+              isVertical
+                ? 'w-full justify-start rounded-none py-3.5 aria-[current=location]:text-primary aria-[current=location]:hover:text-primary'
+                : 'aria-[current=location]:text-primary aria-[current=location]:hover:text-primary'
+            }
             onClick={() => onSelect?.(item)}
           >
             {item.label}
