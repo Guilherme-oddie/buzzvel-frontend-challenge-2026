@@ -34,6 +34,7 @@
 - Start focused branches from `dev`: `feat/<issue>-<slug>`, `fix/<issue>-<slug>`, `refactor/<issue>-<slug>` or `chore/<issue>-<slug>`.
 - Link work to its GitHub issue and keep Project status current: Backlog, Ready, In progress, In review, Done.
 - Open focused PRs targeting `dev`; avoid direct changes to `dev` or `main`. A ticket may span multiple focused PRs when necessary.
+- When a PR depends on an unmerged setup or feature PR, branch from and temporarily target that parent branch; retarget `dev` after the dependency is merged.
 - Use concise, action-oriented commits exactly as `<type>: <description>`, without a scope. Allowed types: `fix`, `feat`, `refactor`, `chore`.
 - Example: `fix: show email validation error`.
 - Use tools available on the current platform; do not assume machine-specific executable paths.
@@ -41,7 +42,7 @@
 ## Pull requests
 
 - Create PRs ready for review by default; use a draft only when explicitly requested.
-- Use titles `<Type>/#<issue>: <short imperative summary> [<target>]`. Types: `Feat`, `Fix`, `Refactor`, `Chore`. Targets: `DEV` or `Main`; use sentence case.
+- Use titles `<Type>/#<issue>: <short imperative summary> [<target>]`. Types: `Feat`, `Fix`, `Refactor`, `Chore`. Targets: `DEV`, `Main` or `PARENT` for a dependent PR; use sentence case.
 - Follow `.github/PULL_REQUEST_TEMPLATE.md`. Link the GitHub issue with its full URL and retain relevant screenshots when updating the body.
 - Keep `Describe your changes` to one or two short paragraphs about the final behavior. Avoid commit-by-commit narration and an extra validation summary unless requested.
 - Keep `How to test` practical, usually three or four steps covering the main flow and important regressions. Disclose known failures and limitations there when relevant.
