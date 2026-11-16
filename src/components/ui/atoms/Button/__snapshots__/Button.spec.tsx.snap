@@ -29,7 +29,7 @@ exports[`Button > renders a compact filled button 1`] = `
 exports[`Button > renders a link with native anchor props 1`] = `
 <DocumentFragment>
   <a
-    class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-bold text-ink hover:text-primary focus-visible:outline-primary"
+    class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-bold text-ink hover:text-muted focus-visible:outline-primary"
     href="/courses"
     rel="noreferrer"
     target="_blank"
@@ -74,7 +74,7 @@ exports[`Button > renders the icon variant 1`] = `
 exports[`Button > renders the link variant 1`] = `
 <DocumentFragment>
   <button
-    class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-bold text-ink hover:text-primary focus-visible:outline-primary"
+    class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-bold text-ink hover:text-muted focus-visible:outline-primary"
     type="button"
   >
     Explore courses
