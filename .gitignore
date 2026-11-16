@@ -4,6 +4,7 @@ next-env.d.ts
 out/
 dist/
 storybook-static/
+/docs/screenshots/
 coverage/
 .pnpm-store/
 .turbo/
