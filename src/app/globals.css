@@ -12,6 +12,8 @@
 @theme {
   --font-sans: 'Inter', Arial, sans-serif;
   --color-primary: #3157f6;
+  --color-accent: #ffee7e;
+  --color-on-primary: #e7e7ec;
   --color-surface: #f9f8f3;
   --color-ink: #171b2c;
   --color-muted: #656770;
