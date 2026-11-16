@@ -10,10 +10,20 @@ Next.js App Router, React, TypeScript, Tailwind CSS and pnpm.
 
 Track work in the [public project](https://github.com/users/Guilherme-oddie/projects/1). Feature PRs target `dev`; releases promote validated changes to `main`.
 
-## Status
+## Run
 
-Repository initialized. Setup and run instructions will be added with the implementation.
+```sh
+pnpm install
+pnpm dev        # http://127.0.0.1:3000
+pnpm storybook  # http://127.0.0.1:6006
+```
+
+Checks: `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm build`, `pnpm build-storybook`.
+
+## Structure
+
+Components live in `src/components/ui/{atoms,molecules,organism,templates,pages}` with colocated stories and tests. Shared fixture data lives in `src/mocks`.
 
 ## AI assistance
 
-Codex assisted with repository setup.
+Codex assists setup and implementation. Validation commands are listed above.

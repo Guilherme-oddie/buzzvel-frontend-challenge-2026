@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter-latin-variable.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: 'Inter', Arial, sans-serif;
+  --color-primary: #3157f6;
+  --color-surface: #f9f8f3;
+  --color-ink: #171b2c;
+  --color-muted: #656770;
+  --color-line: #dbdfeb;
+}
+
+html {
+  color-scheme: light;
+  background: var(--color-surface);
+  font-family: var(--font-sans);
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  color: var(--color-ink);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
