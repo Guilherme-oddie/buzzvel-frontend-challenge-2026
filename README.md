@@ -20,10 +20,12 @@ pnpm storybook  # http://127.0.0.1:6006
 
 Checks: `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm build`, `pnpm build-storybook`.
 
-## Structure
+## Structure and scope
 
 Components live in `src/components/ui/{atoms,molecules,organism,templates,pages}` with colocated stories and tests. Shared fixture data lives in `src/mocks`.
 
+Current scope: Navbar only. Navigation destinations are mock anchors for future sections. The 960px breakpoint and expanded mobile menu are implementation decisions; Figma provides the desktop and closed mobile states.
+
 ## AI assistance
 
-Codex assists setup and implementation. Validation commands are listed above.
+Codex assisted with setup and implementation. Changes are checked through component tests, builds and browser review.
