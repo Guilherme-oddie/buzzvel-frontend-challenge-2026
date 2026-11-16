@@ -1,0 +1,192 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SectionHeading > renders with centered inverse featured content 1`] = `
+<DocumentFragment>
+  <div
+    class="flex min-w-0 flex-col items-center text-center"
+  >
+    <p
+      class="typography-overline text-white"
+    >
+      Explore your next step
+    </p>
+    <div
+      class="flex w-full pt-4 justify-center"
+    >
+      <h2
+        class="typography-h3 w-full max-w-168 text-white"
+      >
+        Build practical skills
+      </h2>
+    </div>
+    <div
+      class="flex w-full flex-col pt-5 items-center"
+    >
+      <p
+        class="typography-subtitle2 w-full text-white"
+      >
+        Learn at your own pace with flexible courses.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SectionHeading > renders with contact content 1`] = `
+<DocumentFragment>
+  <div
+    class="flex min-w-0 flex-col items-start text-left"
+  >
+    <p
+      class="typography-overline text-primary"
+    >
+      Explore your next step
+    </p>
+    <div
+      class="flex w-full pt-4 "
+    >
+      <h2
+        class="typography-h3 w-full  text-ink"
+      >
+        Build practical skills
+      </h2>
+    </div>
+    <div
+      class="flex w-full flex-col pt-4 "
+    >
+      <p
+        class="typography-body1 w-full min-[960px]:typography-subtitle1 text-muted"
+      >
+        Learn at your own pace with flexible courses.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SectionHeading > renders with default props 1`] = `
+<DocumentFragment>
+  <div
+    class="flex min-w-0 flex-col items-start text-left"
+  >
+    <p
+      class="typography-overline text-primary"
+    >
+      Explore your next step
+    </p>
+    <div
+      class="flex w-full pt-4 "
+    >
+      <h2
+        class="typography-h3 w-full  text-ink"
+      >
+        Build practical skills
+      </h2>
+    </div>
+    <div
+      class="flex w-full flex-col pt-4 "
+    >
+      <p
+        class="typography-subtitle1 w-full text-muted"
+      >
+        Learn at your own pace with flexible courses.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SectionHeading > renders with hero with h4 semantics 1`] = `
+<DocumentFragment>
+  <div
+    class="flex min-w-0 flex-col items-start text-left"
+  >
+    <p
+      class="typography-overline text-primary"
+    >
+      Explore your next step
+    </p>
+    <div
+      class="flex w-full pt-4 "
+    >
+      <h4
+        class="typography-h1 w-full  text-ink"
+      >
+        Build practical skills
+      </h4>
+    </div>
+    <div
+      class="flex w-full flex-col pt-6 "
+    >
+      <p
+        class="typography-subtitle1 w-full max-w-120 text-muted"
+      >
+        Learn at your own pace with flexible courses.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SectionHeading > renders with only a title 1`] = `
+<DocumentFragment>
+  <div
+    class="flex min-w-0 flex-col items-start text-left"
+  >
+    <div
+      class="flex w-full  "
+    >
+      <h2
+        class="typography-h3 w-full  text-ink"
+      >
+        Build practical skills
+      </h2>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SectionHeading > renders with people, actions and native props 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Learning introduction"
+    class="flex min-w-0 flex-col items-start text-left max-w-xl"
+    id="learning-intro"
+    role="group"
+  >
+    <p
+      class="typography-overline text-primary"
+    >
+      Explore your next step
+    </p>
+    <div
+      class="flex w-full pt-2 "
+    >
+      <h2
+        class="typography-h3 w-full  text-ink"
+      >
+        Build practical skills
+      </h2>
+    </div>
+    <div
+      class="flex w-full flex-col pt-6 min-[960px]:pt-8 "
+    >
+      <p
+        class="typography-subtitle1 w-full text-ink min-[960px]:text-muted"
+      >
+        Learn at your own pace with flexible courses.
+      </p>
+    </div>
+    <div
+      class="flex max-w-full gap-3 flex-wrap pt-6 min-[960px]:pt-8"
+    >
+      <a
+        class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary"
+        href="#courses"
+      >
+        Explore courses
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
