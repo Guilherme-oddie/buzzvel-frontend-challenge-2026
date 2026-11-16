@@ -6,6 +6,7 @@ export const typographyVariants = {
   h3: 'typography-h3',
   h5: 'typography-h5',
   subtitle1: 'typography-subtitle1',
+  subtitle2: 'typography-subtitle2',
   body1: 'typography-body1',
   caption: 'typography-caption',
   overline: 'typography-overline',

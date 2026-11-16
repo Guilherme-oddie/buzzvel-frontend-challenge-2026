@@ -58,6 +58,14 @@ export const typographySamples: readonly TypographySample[] = [
     mobile: { fontSize: 16, lineHeight: 26, letterSpacing: 0 },
   },
   {
+    variant: 'subtitle2',
+    text: 'Every course includes practical exercises designed to turn knowledge into action.',
+    fontFamily: 'Inter',
+    fontWeight: 400,
+    desktop: { fontSize: 16, lineHeight: 28, letterSpacing: 0 },
+    mobile: { fontSize: 14, lineHeight: 24, letterSpacing: 0 },
+  },
+  {
     variant: 'body1',
     text: 'Learn from experienced teachers through practical, flexible courses.',
     fontFamily: 'Inter',

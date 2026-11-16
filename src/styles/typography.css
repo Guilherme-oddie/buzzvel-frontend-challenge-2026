@@ -34,6 +34,11 @@
   --text-subtitle1--font-weight: 400;
   --text-subtitle1--letter-spacing: 0em;
 
+  --text-subtitle2: 0.875rem;
+  --text-subtitle2--line-height: 1.5rem;
+  --text-subtitle2--font-weight: 400;
+  --text-subtitle2--letter-spacing: 0em;
+
   --text-body1: 0.875rem;
   --text-body1--line-height: 1.5rem;
   --text-body1--font-weight: 400;
@@ -63,6 +68,8 @@
       --text-h5--line-height: 2rem;
       --text-subtitle1: 1.125rem;
       --text-subtitle1--line-height: 1.75rem;
+      --text-subtitle2: 1rem;
+      --text-subtitle2--line-height: 1.75rem;
     }
   }
 }
@@ -85,6 +92,10 @@
 
 @utility typography-subtitle1 {
   @apply font-sans text-subtitle1;
+}
+
+@utility typography-subtitle2 {
+  @apply font-sans text-subtitle2;
 }
 
 @utility typography-body1 {

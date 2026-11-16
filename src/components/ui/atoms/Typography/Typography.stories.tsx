@@ -33,7 +33,7 @@ const meta = {
     docs: {
       description: {
         component:
-          'Eight text styles measured in the 1280px desktop and 402px mobile [Figma frames](https://www.figma.com/design/G0zSf6gyynwzEusOCgm2CM/Buzzvel-FE---Test-2026?node-id=2-46). The 960px responsive switch is an implementation decision. `caption` is a local alias for the unnamed footer style. Visual variants and semantic elements are independent; text color inherits.',
+          'Text styles measured in the 1280px desktop and 402px mobile [Figma frames](https://www.figma.com/design/G0zSf6gyynwzEusOCgm2CM/Buzzvel-FE---Test-2026?node-id=2-46). The 960px responsive switch is an implementation decision. `caption` is a local alias for the unnamed footer style. Visual variants and semantic elements are independent. Color inherits by default; use existing color utilities through `className` when needed.',
       },
     },
   },
@@ -169,6 +169,45 @@ export const SemanticExample: Story = {
       </Typography>
     </div>
   ),
+};
+
+export const ColorUsage: Story = {
+  render: () => (
+    <div className="w-full min-w-0 space-y-6 p-6 sm:p-8">
+      <Typography as="h1" variant="h1" className="text-primary">
+        A heading in blue
+      </Typography>
+      <Typography>Body text uses the default page color.</Typography>
+      <div className="text-primary" data-testid="typography-color-wrapper">
+        <Typography>Body text inherits the wrapper color.</Typography>
+      </div>
+    </div>
+  ),
+  play: async ({ canvasElement, step }) => {
+    const canvas = within(canvasElement);
+    const window = canvasElement.ownerDocument.defaultView;
+
+    if (!window) {
+      throw new Error('Typography color checks require a browser window.');
+    }
+
+    const heading = canvas.getByRole('heading', { level: 1, name: 'A heading in blue' });
+    const defaultBody = canvas.getByText('Body text uses the default page color.');
+    const wrapper = canvas.getByTestId('typography-color-wrapper');
+    const inheritedBody = within(wrapper).getByText('Body text inherits the wrapper color.');
+    const headingColor = window.getComputedStyle(heading).color;
+
+    await step('An explicit color utility changes the heading color', async () => {
+      await expect(headingColor).not.toBe(window.getComputedStyle(defaultBody).color);
+    });
+
+    await step('Body text inherits its container color', async () => {
+      const wrapperColor = window.getComputedStyle(wrapper).color;
+
+      await expect(window.getComputedStyle(inheritedBody).color).toBe(wrapperColor);
+      await expect(wrapperColor).toBe(headingColor);
+    });
+  },
 };
 
 export const LongText: Story = {
