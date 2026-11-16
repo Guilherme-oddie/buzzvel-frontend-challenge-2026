@@ -1,0 +1,150 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button > forwards native button props and custom classes 1`] = `
+<DocumentFragment>
+  <button
+    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary w-full"
+    disabled=""
+    id="enroll"
+    name="intent"
+    type="submit"
+    value="enroll"
+  >
+    Enroll now
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button > renders a compact filled button 1`] = `
+<DocumentFragment>
+  <button
+    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-5 py-2.5 focus-visible:outline-primary"
+    type="button"
+  >
+    Start learning
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button > renders a link with native anchor props 1`] = `
+<DocumentFragment>
+  <a
+    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-bold text-ink hover:text-primary focus-visible:outline-primary"
+    href="/courses"
+    rel="noreferrer"
+    target="_blank"
+  >
+    Browse courses
+    <img
+      alt=""
+      aria-hidden="true"
+      data-nimg="1"
+      decoding="async"
+      height="20"
+      loading="lazy"
+      src="/icons/arrow-right.svg"
+      style="color: transparent;"
+      width="20"
+    />
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Button > renders the accent variant 1`] = `
+<DocumentFragment>
+  <button
+    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-accent font-bold text-ink hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary"
+    type="button"
+  >
+    Explore courses
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button > renders the icon variant 1`] = `
+<DocumentFragment>
+  <button
+    aria-label="Open menu"
+    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 h-9 w-9 shrink-0 p-1.5 text-ink hover:bg-line/40 focus-visible:outline-primary"
+    type="button"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      data-nimg="1"
+      decoding="async"
+      height="24"
+      loading="lazy"
+      src="/icons/menu.svg"
+      style="color: transparent;"
+      width="24"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button > renders the link variant 1`] = `
+<DocumentFragment>
+  <button
+    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-bold text-ink hover:text-primary focus-visible:outline-primary"
+    type="button"
+  >
+    Explore courses
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button > renders the link-inverse variant 1`] = `
+<DocumentFragment>
+  <button
+    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 h-[50px] px-4 py-3.5 font-bold text-on-primary hover:text-white min-[960px]:h-[52px] focus-visible:outline-on-primary"
+    type="button"
+  >
+    Explore courses
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button > renders the primary variant 1`] = `
+<DocumentFragment>
+  <button
+    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary"
+    type="button"
+  >
+    Explore courses
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button > renders the secondary variant 1`] = `
+<DocumentFragment>
+  <button
+    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 border border-line bg-white font-bold text-ink hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary"
+    type="button"
+  >
+    Explore courses
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button > renders the text variant 1`] = `
+<DocumentFragment>
+  <button
+    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary"
+    type="button"
+  >
+    Explore courses
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button > renders with default props 1`] = `
+<DocumentFragment>
+  <button
+    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary"
+    type="button"
+  >
+    Explore courses
+  </button>
+</DocumentFragment>
+`;
