@@ -41,7 +41,7 @@ export function Button({
 }: ButtonProps) {
   const isFilled = variant === 'primary' || variant === 'secondary' || variant === 'accent';
   const classes = [
-    'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50',
+    'inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50',
     variantClasses[variant],
     isFilled ? sizeClasses[size] : '',
     variant === 'link-inverse'
