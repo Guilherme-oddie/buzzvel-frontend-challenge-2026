@@ -1,18 +1,20 @@
-## Summary
+## Describe your changes
 
-Describe the problem and resulting behavior.
+Describe the problem and resulting behavior in one or two short paragraphs.
 
-## Related issue
+## Issue ticket number and link
 
-Refs #
+[Issue #](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/)
 
-## Validation
+## Checklist before requesting a review
 
-List checks run, results and any limitations.
+- [ ] I have performed a self-review of my code.
+- [ ] I have added or updated tests where applicable.
 
-## Screenshots
+## How to test
+
+1.
+
+## Screenshots (if it's a user facing feature)
 
 Add desktop and mobile screenshots for visual changes.
-
-- [ ] I reviewed the diff.
-- [ ] Acceptance criteria and relevant checks are covered.
