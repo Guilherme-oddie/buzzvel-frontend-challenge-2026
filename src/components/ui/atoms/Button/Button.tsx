@@ -23,7 +23,7 @@ const variantClasses: Record<ButtonVariant, string> = {
   accent: 'bg-accent font-bold text-ink hover:brightness-95',
   text: 'p-0 font-normal text-muted hover:text-ink',
   icon: 'h-9 w-9 shrink-0 p-1.5 text-ink hover:bg-line/40',
-  link: 'p-0 font-bold text-ink hover:text-primary',
+  link: 'p-0 font-bold text-ink hover:text-muted',
   'link-inverse':
     'h-[50px] px-4 py-3.5 font-bold text-on-primary hover:text-white min-[960px]:h-[52px]',
 };
