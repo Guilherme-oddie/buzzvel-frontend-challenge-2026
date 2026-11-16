@@ -1,8 +1,10 @@
 import Image from 'next/image';
 
 const iconSources = {
-  menu: '/icons/menu.svg',
-  close: '/icons/close.svg',
+  menu: { src: '/icons/menu.svg', size: 24 },
+  close: { src: '/icons/close.svg', size: 24 },
+  'arrow-right': { src: '/icons/arrow-right.svg', size: 20 },
+  'arrow-right-light': { src: '/icons/arrow-right-light.svg', size: 20 },
 } as const;
 
 export type IconName = keyof typeof iconSources;
@@ -12,7 +14,11 @@ export interface IconProps {
 }
 
 export function Icon({ name }: IconProps) {
-  return <Image src={iconSources[name]} width={24} height={24} alt="" aria-hidden unoptimized />;
+  const icon = iconSources[name];
+
+  return (
+    <Image src={icon.src} width={icon.size} height={icon.size} alt="" aria-hidden unoptimized />
+  );
 }
 
 export default Icon;

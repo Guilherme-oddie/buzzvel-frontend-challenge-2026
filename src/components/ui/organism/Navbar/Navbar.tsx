@@ -100,7 +100,11 @@ export function Navbar({
               {secondaryAction.label}
             </Button>
           )}
-          <Button href={primaryAction.href} onClick={() => selectItem(primaryAction)}>
+          <Button
+            href={primaryAction.href}
+            size="compact"
+            onClick={() => selectItem(primaryAction)}
+          >
             {primaryAction.label}
           </Button>
         </div>
@@ -136,7 +140,11 @@ export function Navbar({
                 {secondaryAction.label}
               </Button>
             )}
-            <Button href={primaryAction.href} onClick={() => selectItem(primaryAction)}>
+            <Button
+              href={primaryAction.href}
+              size="compact"
+              onClick={() => selectItem(primaryAction)}
+            >
               {primaryAction.label}
             </Button>
           </div>

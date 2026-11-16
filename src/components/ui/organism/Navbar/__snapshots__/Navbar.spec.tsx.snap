@@ -35,7 +35,7 @@ exports[`Navbar > renders with custom props 1`] = `
             class=""
           >
             <a
-              class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink "
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary"
               href="#courses"
             >
               Courses
@@ -45,7 +45,7 @@ exports[`Navbar > renders with custom props 1`] = `
             class=""
           >
             <a
-              class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink "
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary"
               href="#for-teams"
             >
               For Teams
@@ -57,7 +57,7 @@ exports[`Navbar > renders with custom props 1`] = `
         class="hidden items-center gap-2 justify-self-end min-[960px]:flex"
       >
         <a
-          class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary px-5 py-2.5 font-bold text-white hover:brightness-95 "
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-5 py-2.5 focus-visible:outline-primary"
           href="/courses"
         >
           Browse courses
@@ -67,7 +67,7 @@ exports[`Navbar > renders with custom props 1`] = `
         aria-controls="mobile-menu"
         aria-expanded="false"
         aria-label="Open menu"
-        class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 h-9 w-9 shrink-0 p-1.5 text-ink hover:bg-line/40 min-[960px]:hidden"
+        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 h-9 w-9 shrink-0 p-1.5 text-ink hover:bg-line/40 focus-visible:outline-primary min-[960px]:hidden"
         type="button"
       >
         <img
@@ -122,7 +122,7 @@ exports[`Navbar > renders with default props 1`] = `
             class=""
           >
             <a
-              class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink "
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary"
               href="#courses"
             >
               Courses
@@ -132,7 +132,7 @@ exports[`Navbar > renders with default props 1`] = `
             class=""
           >
             <a
-              class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink "
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary"
               href="#for-teams"
             >
               For Teams
@@ -142,7 +142,7 @@ exports[`Navbar > renders with default props 1`] = `
             class=""
           >
             <a
-              class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink "
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary"
               href="#community"
             >
               Community
@@ -152,7 +152,7 @@ exports[`Navbar > renders with default props 1`] = `
             class=""
           >
             <a
-              class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink "
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary"
               href="#about"
             >
               About
@@ -164,13 +164,13 @@ exports[`Navbar > renders with default props 1`] = `
         class="hidden items-center gap-2 justify-self-end min-[960px]:flex"
       >
         <a
-          class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink px-4 py-2.5"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary px-4 py-2.5"
           href="#login"
         >
           Log in
         </a>
         <a
-          class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary px-5 py-2.5 font-bold text-white hover:brightness-95 "
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-5 py-2.5 focus-visible:outline-primary"
           href="#start-learning"
         >
           Start learning
@@ -180,7 +180,7 @@ exports[`Navbar > renders with default props 1`] = `
         aria-controls="mobile-menu"
         aria-expanded="false"
         aria-label="Open menu"
-        class="inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 h-9 w-9 shrink-0 p-1.5 text-ink hover:bg-line/40 min-[960px]:hidden"
+        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 h-9 w-9 shrink-0 p-1.5 text-ink hover:bg-line/40 focus-visible:outline-primary min-[960px]:hidden"
         type="button"
       >
         <img
