@@ -1,3 +1,11 @@
+import { Navbar } from '@/components/ui/organism/Navbar';
+import { navbarMock } from '@/mocks/navigation';
+
 export default function HomePage() {
-  return <main id="main-content" aria-label="Luma" className="min-h-screen" />;
+  return (
+    <>
+      <Navbar {...navbarMock} />
+      <main id="main-content" aria-label="Luma" className="min-h-[calc(100svh-70px)]" />
+    </>
+  );
 }
