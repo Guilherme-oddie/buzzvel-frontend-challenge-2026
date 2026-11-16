@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 const iconSources = {
   menu: { src: '/icons/menu.svg', size: 24 },
   close: { src: '/icons/close.svg', size: 24 },
@@ -15,9 +13,20 @@ export interface IconProps {
 
 export function Icon({ name }: IconProps) {
   const icon = iconSources[name];
+  const mask = `url("${icon.src}") center / contain no-repeat`;
 
   return (
-    <Image src={icon.src} width={icon.size} height={icon.size} alt="" aria-hidden unoptimized />
+    <span
+      aria-hidden
+      className="inline-block shrink-0 bg-current"
+      style={{
+        width: icon.size,
+        height: icon.size,
+        mask,
+        WebkitMask: mask,
+        forcedColorAdjust: 'preserve-parent-color',
+      }}
+    />
   );
 }
 

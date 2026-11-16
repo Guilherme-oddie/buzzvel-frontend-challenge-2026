@@ -70,16 +70,10 @@ exports[`Navbar > renders with custom props 1`] = `
         class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 h-9 w-9 shrink-0 p-1.5 text-ink hover:bg-line/40 focus-visible:outline-primary min-[960px]:hidden"
         type="button"
       >
-        <img
-          alt=""
+        <span
           aria-hidden="true"
-          data-nimg="1"
-          decoding="async"
-          height="24"
-          loading="lazy"
-          src="/icons/menu.svg"
-          style="color: transparent;"
-          width="24"
+          class="inline-block shrink-0 bg-current"
+          style="width: 24px; height: 24px; mask: url("/icons/menu.svg") center / contain no-repeat; -webkit-mask: url("/icons/menu.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
         />
       </button>
     </div>
@@ -183,16 +177,10 @@ exports[`Navbar > renders with default props 1`] = `
         class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 h-9 w-9 shrink-0 p-1.5 text-ink hover:bg-line/40 focus-visible:outline-primary min-[960px]:hidden"
         type="button"
       >
-        <img
-          alt=""
+        <span
           aria-hidden="true"
-          data-nimg="1"
-          decoding="async"
-          height="24"
-          loading="lazy"
-          src="/icons/menu.svg"
-          style="color: transparent;"
-          width="24"
+          class="inline-block shrink-0 bg-current"
+          style="width: 24px; height: 24px; mask: url("/icons/menu.svg") center / contain no-repeat; -webkit-mask: url("/icons/menu.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
         />
       </button>
     </div>
