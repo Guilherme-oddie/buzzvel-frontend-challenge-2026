@@ -20,7 +20,7 @@ const variantClasses: Record<ButtonVariant, string> = {
 };
 
 export function Button({ variant = 'primary', className = '', ...props }: ButtonProps) {
-  const classes = `inline-flex items-center justify-center whitespace-nowrap rounded-lg text-sm leading-6 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 ${variantClasses[variant]} ${className}`;
+  const classes = `inline-flex items-center justify-center whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 ${variantClasses[variant]} ${className}`;
 
   if (props.href !== undefined) {
     return <a {...props} className={classes} />;
