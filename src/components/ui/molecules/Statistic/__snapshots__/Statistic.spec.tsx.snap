@@ -1,0 +1,61 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Statistic > renders with custom content and native props 1`] = `
+<DocumentFragment>
+  <dl>
+    <div
+      class="_statistic_58eda6 text-center"
+      id="monthly-lessons"
+      title="Monthly course additions"
+    >
+      <dt
+        class="_label_58eda6"
+      >
+        <span
+          class="typography-body1 block text-secondary-text"
+        >
+          new lessons every month
+        </span>
+      </dt>
+      <dd
+        class="_value_58eda6"
+      >
+        <span
+          class="typography-h1 block text-primary"
+        >
+          50+
+        </span>
+      </dd>
+    </div>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`Statistic > renders with default props 1`] = `
+<DocumentFragment>
+  <dl>
+    <div
+      class="_statistic_58eda6"
+    >
+      <dt
+        class="_label_58eda6"
+      >
+        <span
+          class="typography-body1 block text-secondary-text"
+        >
+          active learners
+        </span>
+      </dt>
+      <dd
+        class="_value_58eda6"
+      >
+        <span
+          class="typography-h1 block text-primary"
+        >
+          24K+
+        </span>
+      </dd>
+    </div>
+  </dl>
+</DocumentFragment>
+`;
