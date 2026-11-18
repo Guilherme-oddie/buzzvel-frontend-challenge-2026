@@ -1,7 +1,19 @@
 import Image from 'next/image';
 
-export function BrandLogo() {
-  return <Image src="/brand/luma.svg" width={54} height={17} alt="Luma" unoptimized />;
+export interface BrandLogoProps {
+  tone?: 'default' | 'inverse';
+}
+
+export function BrandLogo({ tone = 'default' }: BrandLogoProps) {
+  return (
+    <Image
+      src={tone === 'inverse' ? '/brand/luma-inverse.svg' : '/brand/luma.svg'}
+      width={54}
+      height={17}
+      alt="Luma"
+      unoptimized
+    />
+  );
 }
 
 export default BrandLogo;

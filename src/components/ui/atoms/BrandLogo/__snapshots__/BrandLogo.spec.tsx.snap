@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BrandLogo > renders with default tone 1`] = `
+<DocumentFragment>
+  <img
+    alt="Luma"
+    data-nimg="1"
+    decoding="async"
+    height="17"
+    loading="lazy"
+    src="/brand/luma.svg"
+    style="color: transparent;"
+    width="54"
+  />
+</DocumentFragment>
+`;
+
+exports[`BrandLogo > renders with inverse tone 1`] = `
+<DocumentFragment>
+  <img
+    alt="Luma"
+    data-nimg="1"
+    decoding="async"
+    height="17"
+    loading="lazy"
+    src="/brand/luma-inverse.svg"
+    style="color: transparent;"
+    width="54"
+  />
+</DocumentFragment>
+`;
