@@ -8,6 +8,7 @@ import {
   contactHeadingMock,
   contactValuesMock,
 } from '@/mocks/contact';
+import { createContactSubmissionMock } from '@/mocks/contactSubmission';
 import { ContactForm } from '.';
 
 const meta = {
@@ -15,9 +16,7 @@ const meta = {
   component: ContactForm,
   args: {
     ...contactFormMock,
-    onSubmit: fn(async () => {
-      await new Promise((resolve) => setTimeout(resolve, 800));
-    }),
+    onSubmit: fn(createContactSubmissionMock()),
   },
   argTypes: {
     labels: { control: 'object' },
@@ -144,7 +143,7 @@ export const Invalid: Story = {
 export const Submitting: Story = {
   args: {
     defaultValues: contactValuesMock,
-    onSubmit: fn(() => new Promise<void>(() => {})),
+    onSubmit: fn(createContactSubmissionMock({ outcomes: ['pending'] })),
   },
   globals: { viewport: { value: 'desktop', isRotated: false } },
   parameters: {
@@ -165,7 +164,10 @@ export const Submitting: Story = {
 };
 
 export const Success: Story = {
-  args: { defaultValues: contactValuesMock, onSubmit: fn(async () => {}) },
+  args: {
+    defaultValues: contactValuesMock,
+    onSubmit: fn(createContactSubmissionMock({ delayMs: 100 })),
+  },
   globals: { viewport: { value: 'desktop', isRotated: false } },
   play: async ({ canvasElement, args }) => {
     const canvas = within(canvasElement);
@@ -182,9 +184,7 @@ export const Success: Story = {
 export const Failure: Story = {
   args: {
     defaultValues: contactValuesMock,
-    onSubmit: fn(async () => {
-      throw new Error('Simulated submission failure');
-    }),
+    onSubmit: fn(createContactSubmissionMock({ delayMs: 100, outcomes: ['error'] })),
   },
   globals: { viewport: { value: 'desktop', isRotated: false } },
   play: async ({ canvasElement, args }) => {
@@ -196,5 +196,40 @@ export const Failure: Story = {
       contactValuesMock.email,
     );
     await expect(canvas.getByRole('button', { name: labels.submit })).toBeEnabled();
+  },
+};
+
+const retryOptions = { delayMs: 100, outcomes: ['error', 'success'] as const };
+const retrySubmission = fn(createContactSubmissionMock(retryOptions));
+
+export const Retry: Story = {
+  args: { defaultValues: contactValuesMock, onSubmit: retrySubmission },
+  globals: { viewport: { value: 'desktop', isRotated: false } },
+  beforeEach: () => {
+    retrySubmission.mockClear();
+    retrySubmission.mockImplementation(createContactSubmissionMock(retryOptions));
+  },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Fails once, then succeeds. The outcome sequence resets when this story mounts.',
+      },
+    },
+  },
+  play: async ({ canvasElement, args }) => {
+    const canvas = within(canvasElement);
+    const labels = { ...contactFormMock.labels, ...args.labels };
+
+    await userEvent.click(canvas.getByRole('button', { name: labels.submit }));
+    await waitFor(() => expect(canvas.getByRole('alert')).toHaveTextContent(labels.error));
+    await expect(canvas.getByRole('textbox', { name: labels.email })).toHaveValue(
+      contactValuesMock.email,
+    );
+
+    await userEvent.click(canvas.getByRole('button', { name: labels.submit }));
+    await waitFor(() => expect(canvas.getByRole('status')).toHaveTextContent(labels.success));
+    await expect(canvas.queryByRole('alert')).not.toBeInTheDocument();
+    await expect(args.onSubmit).toHaveBeenCalledTimes(2);
+    await expect(args.onSubmit).toHaveBeenLastCalledWith(contactValuesMock);
   },
 };
