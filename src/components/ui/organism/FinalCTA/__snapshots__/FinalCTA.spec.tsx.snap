@@ -1,0 +1,195 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FinalCTA > accepts heading semantics, optional content and native props 1`] = `
+<h3
+  class="typography-h2 w-full max-w-168 text-ink"
+>
+  Choose your next skill
+</h3>
+`;
+
+exports[`FinalCTA > renders the complete fixture 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="What will you learn next?"
+    class="_section_1b8e34"
+  >
+    <div
+      aria-hidden="true"
+      class="_decorations_1b8e34"
+    >
+      <span
+        class="_outlineCircleTop_1b8e34"
+      />
+      <span
+        class="_circleBottomLeft_1b8e34"
+      />
+      <span
+        class="_squareTopRight_1b8e34"
+      />
+      <span
+        class="_outlineCircleBottom_1b8e34"
+      />
+      <span
+        class="_squareLeft_1b8e34"
+      />
+      <span
+        class="_circleBottomRight_1b8e34"
+      />
+      <span
+        class="_outlineCircleRight_1b8e34"
+      />
+      <span
+        class="_outlineSquareTop_1b8e34"
+      />
+      <img
+        alt=""
+        class="_bold_1b8e34"
+        data-nimg="1"
+        decoding="async"
+        height="102"
+        loading="lazy"
+        src="/images/final-cta/bold.svg"
+        style="color: transparent;"
+        width="102"
+      />
+      <img
+        alt=""
+        class="_codepen_1b8e34"
+        data-nimg="1"
+        decoding="async"
+        height="160"
+        loading="lazy"
+        src="/images/final-cta/codepen.svg"
+        style="color: transparent;"
+        width="160"
+      />
+      <img
+        alt=""
+        class="_chatBubble_1b8e34"
+        data-nimg="1"
+        decoding="async"
+        height="32"
+        loading="lazy"
+        src="/images/final-cta/chat-bubble.svg"
+        style="color: transparent;"
+        width="32"
+      />
+      <img
+        alt=""
+        class="_dashboard_1b8e34"
+        data-nimg="1"
+        decoding="async"
+        height="62"
+        loading="lazy"
+        src="/images/final-cta/dashboard.svg"
+        style="color: transparent;"
+        width="62"
+      />
+      <img
+        alt=""
+        class="_cash_1b8e34"
+        data-nimg="1"
+        decoding="async"
+        height="48"
+        loading="lazy"
+        src="/images/final-cta/cash.svg"
+        style="color: transparent;"
+        width="48"
+      />
+    </div>
+    <div
+      class="_content_1b8e34"
+    >
+      <div
+        aria-label="Learner portraits"
+        class="inline-flex shrink-0 items-center -space-x-2 [&>img:nth-child(2)]:relative [&>img:nth-child(2)]:z-10"
+        role="group"
+      >
+        <img
+          alt=""
+          class="box-border h-10 w-10 shrink-0 rounded-full border-2 border-accent object-cover"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/images/learners/learner-1.jpg"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt=""
+          class="box-border h-10 w-10 shrink-0 rounded-full border-2 border-accent object-cover"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/images/learners/learner-2.jpg"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt=""
+          class="box-border h-10 w-10 shrink-0 rounded-full border-2 border-accent object-cover"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/images/learners/learner-3.jpg"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt=""
+          class="box-border h-10 w-10 shrink-0 rounded-full border-2 border-accent object-cover"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/images/learners/learner-4.jpg"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+      <div
+        class="flex min-w-0 flex-col items-center text-center mt-8 w-full"
+      >
+        <div
+          class="flex w-full  justify-center"
+        >
+          <h2
+            class="typography-h2 w-full max-w-168 text-ink"
+          >
+            What will you learn next?
+          </h2>
+        </div>
+        <div
+          class="flex w-full flex-col pt-4 items-center"
+        >
+          <p
+            class="typography-subtitle1 w-full text-muted"
+          >
+            Start with one course. Build from there.
+          </p>
+        </div>
+        <div
+          class="flex max-w-full gap-3 w-full flex-col min-[960px]:flex-row pt-10 justify-center"
+        >
+          <a
+            class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary _action_1b8e34"
+            href="#courses"
+          >
+            Explore all courses
+          </a>
+          <a
+            class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 border border-line bg-white font-bold text-ink hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary _action_1b8e34"
+            href="#contact"
+          >
+            Join Luma
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

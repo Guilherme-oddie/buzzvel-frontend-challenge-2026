@@ -34,6 +34,21 @@ describe('SectionHeading', () => {
       },
     },
     { name: 'contact content', props: { ...content, variant: 'contact' } },
+    {
+      name: 'centered call to action',
+      props: {
+        variant: 'cta',
+        align: 'center',
+        title: 'What will you learn next?',
+        description: 'Start with one course. Build from there.',
+        actions: (
+          <>
+            <Button>Explore all courses</Button>
+            <Button variant="secondary">Join Luma</Button>
+          </>
+        ),
+      },
+    },
   ] satisfies readonly { name: string; props: SectionHeadingProps }[])(
     'renders with $name',
     ({ props }) => {
