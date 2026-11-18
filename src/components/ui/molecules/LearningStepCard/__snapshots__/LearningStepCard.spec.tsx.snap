@@ -1,0 +1,60 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LearningStepCard > renders with custom content, variant, heading and na… 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Project step"
+    class="flex min-w-0 flex-col items-start max-w-sm"
+    id="project-step"
+    role="group"
+  >
+    <div
+      aria-hidden="true"
+      class="_marker_1c5165 _coral_1c5165"
+    />
+    <p
+      class="typography-overline mt-6 text-muted"
+    >
+      Step 04
+    </p>
+    <h4
+      class="typography-h5 mt-[9px] text-ink"
+    >
+      Build your own project
+    </h4>
+    <p
+      class="typography-subtitle2 mt-3.5 text-muted min-[960px]:mt-[13px]"
+    >
+      Put your new skills to work in a personal project.
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`LearningStepCard > renders with default props 1`] = `
+<DocumentFragment>
+  <div
+    class="flex min-w-0 flex-col items-start"
+  >
+    <div
+      aria-hidden="true"
+      class="_marker_1c5165 _blue_1c5165"
+    />
+    <p
+      class="typography-overline mt-6 text-muted"
+    >
+      Step 01
+    </p>
+    <h3
+      class="typography-h5 mt-[9px] text-ink"
+    >
+      Choose your focus
+    </h3>
+    <p
+      class="typography-subtitle2 mt-3.5 text-muted min-[960px]:mt-[13px]"
+    >
+      Find courses based on the skill you want to build, not endless content categories.
+    </p>
+  </div>
+</DocumentFragment>
+`;
