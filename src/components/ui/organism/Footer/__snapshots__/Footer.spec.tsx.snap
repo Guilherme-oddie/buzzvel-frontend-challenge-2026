@@ -1,0 +1,287 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer > accepts configurable groups, copy, brand destination and native props 1`] = `
+<DocumentFragment>
+  <footer
+    aria-label="Site information"
+    class="_footer_29ddca custom-footer"
+    id="site-footer"
+  >
+    <div
+      class="_container_29ddca"
+    >
+      <div
+        class="_layout_29ddca"
+      >
+        <div
+          class="_brand_29ddca"
+        >
+          <a
+            aria-label="Luma home"
+            class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _brandLink_29ddca"
+            href="/home"
+          >
+            <img
+              alt="Luma"
+              data-nimg="1"
+              decoding="async"
+              height="17"
+              loading="lazy"
+              src="/brand/luma-inverse.svg"
+              style="color: transparent;"
+              width="54"
+            />
+          </a>
+          <p
+            class="typography-body1 _tagline_29ddca"
+          >
+            Learn something new every day.
+          </p>
+        </div>
+        <nav
+          aria-label="Footer navigation"
+          class="_navigation_29ddca"
+        >
+          <div
+            class="_group_29ddca"
+          >
+            <h2
+              class="typography-overline text-on-primary"
+            >
+              Resources
+            </h2>
+            <ul
+              class="_links_29ddca"
+            >
+              <li
+                class="min-w-0"
+              >
+                <a
+                  class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _link_29ddca"
+                  href="/journal"
+                >
+                  Journal
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="_bottom_29ddca"
+      >
+        <p
+          class="typography-caption _copyright_29ddca"
+        >
+          © 2027 Luma Learning
+        </p>
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Footer > renders the complete fixture with shared typography and inverse logo 1`] = `
+<DocumentFragment>
+  <footer
+    class="_footer_29ddca"
+  >
+    <div
+      class="_container_29ddca"
+    >
+      <div
+        class="_layout_29ddca"
+      >
+        <div
+          class="_brand_29ddca"
+        >
+          <a
+            aria-label="Luma home"
+            class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _brandLink_29ddca"
+            href="#top"
+          >
+            <img
+              alt="Luma"
+              data-nimg="1"
+              decoding="async"
+              height="17"
+              loading="lazy"
+              src="/brand/luma-inverse.svg"
+              style="color: transparent;"
+              width="54"
+            />
+          </a>
+          <p
+            class="typography-body1 _tagline_29ddca"
+          >
+            Practical learning for curious people.
+          </p>
+        </div>
+        <nav
+          aria-label="Footer navigation"
+          class="_navigation_29ddca"
+        >
+          <div
+            class="_group_29ddca"
+          >
+            <h2
+              class="typography-overline text-on-primary"
+            >
+              Explore
+            </h2>
+            <ul
+              class="_links_29ddca"
+            >
+              <li
+                class="min-w-0"
+              >
+                <a
+                  class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _link_29ddca"
+                  href="#courses"
+                >
+                  Courses
+                </a>
+              </li>
+              <li
+                class="min-w-0"
+              >
+                <a
+                  class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _link_29ddca"
+                  href="#categories"
+                >
+                  Categories
+                </a>
+              </li>
+              <li
+                class="min-w-0"
+              >
+                <a
+                  class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _link_29ddca"
+                  href="#instructors"
+                >
+                  Instructors
+                </a>
+              </li>
+              <li
+                class="min-w-0"
+              >
+                <a
+                  class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _link_29ddca"
+                  href="#for-teams"
+                >
+                  For Teams
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="_group_29ddca"
+          >
+            <h2
+              class="typography-overline text-on-primary"
+            >
+              Company
+            </h2>
+            <ul
+              class="_links_29ddca"
+            >
+              <li
+                class="min-w-0"
+              >
+                <a
+                  class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _link_29ddca"
+                  href="#about"
+                >
+                  About
+                </a>
+              </li>
+              <li
+                class="min-w-0"
+              >
+                <a
+                  class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _link_29ddca"
+                  href="#careers"
+                >
+                  Careers
+                </a>
+              </li>
+              <li
+                class="min-w-0"
+              >
+                <a
+                  class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _link_29ddca"
+                  href="#journal"
+                >
+                  Journal
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="_group_29ddca"
+          >
+            <h2
+              class="typography-overline text-on-primary"
+            >
+              Support
+            </h2>
+            <ul
+              class="_links_29ddca"
+            >
+              <li
+                class="min-w-0"
+              >
+                <a
+                  class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _link_29ddca"
+                  href="#help-center"
+                >
+                  Help Center
+                </a>
+              </li>
+              <li
+                class="min-w-0"
+              >
+                <a
+                  class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _link_29ddca"
+                  href="#contact"
+                >
+                  Contact
+                </a>
+              </li>
+              <li
+                class="min-w-0"
+              >
+                <a
+                  class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _link_29ddca"
+                  href="#terms"
+                >
+                  Terms
+                </a>
+              </li>
+              <li
+                class="min-w-0"
+              >
+                <a
+                  class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary _link_29ddca"
+                  href="#privacy"
+                >
+                  Privacy
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="_bottom_29ddca"
+      >
+        <p
+          class="typography-caption _copyright_29ddca"
+        >
+          © 2026 Luma Learning
+        </p>
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;
