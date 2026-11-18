@@ -1,0 +1,204 @@
+.collage {
+  --reference-width: 362;
+  --reference-height: 309.5;
+
+  position: relative;
+  width: 100%;
+  aspect-ratio: var(--reference-width) / var(--reference-height);
+  isolation: isolate;
+}
+
+/* Preset slots preserve the art-directed Figma arrangement as the collage scales. */
+.circle,
+.photo {
+  position: absolute;
+  top: calc(var(--y) / var(--reference-height) * 100%);
+  left: calc(var(--x) / var(--reference-width) * 100%);
+  width: calc(var(--width) / var(--reference-width) * 100%);
+  height: calc(var(--height) / var(--reference-height) * 100%);
+}
+
+.circle {
+  --x: 16;
+  --y: -9.953;
+  --width: 330;
+  --height: 330;
+
+  border-radius: 50%;
+  background: var(--color-primary-soft);
+}
+
+.photoLayer {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+}
+
+.photo {
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow:
+    0 0 4px rgb(0 0 0 / 7%),
+    0 4px 6px -1px rgb(0 0 0 / 10%);
+}
+
+.photo:nth-child(1) {
+  --x: 22;
+  --y: 62.25;
+  --width: 72;
+  --height: 96;
+}
+
+.photo:nth-child(2) {
+  --x: 0;
+  --y: 166.25;
+  --width: 94;
+  --height: 129;
+}
+
+.photo:nth-child(3) {
+  --x: 106;
+  --y: 0;
+  --width: 72;
+  --height: 106;
+}
+
+.photo:nth-child(4) {
+  --x: 106;
+  --y: 114;
+  --width: 72;
+  --height: 107.5;
+}
+
+.photo:nth-child(5) {
+  --x: 106;
+  --y: 229.5;
+  --width: 72;
+  --height: 80;
+}
+
+.photo:nth-child(6) {
+  --x: 190;
+  --y: 13;
+  --width: 72;
+  --height: 85.5;
+}
+
+.photo:nth-child(7) {
+  --x: 190;
+  --y: 106.5;
+  --width: 72;
+  --height: 86;
+}
+
+.photo:nth-child(8) {
+  --x: 190;
+  --y: 200.5;
+  --width: 72;
+  --height: 96;
+}
+
+.photo:nth-child(9) {
+  --x: 274;
+  --y: 45.75;
+  --width: 88;
+  --height: 127.5;
+}
+
+.photo:nth-child(10) {
+  --x: 274;
+  --y: 181.25;
+  --width: 72;
+  --height: 82.5;
+}
+
+@media (width >= 60rem) {
+  .collage {
+    --reference-width: 530;
+    --reference-height: 522.438;
+  }
+
+  .circle {
+    --x: 15;
+    --y: 11.312;
+    --width: 500;
+    --height: 500;
+  }
+
+  .photo {
+    border-radius: 4.012584px;
+    box-shadow:
+      0 0 3.21px rgb(0 0 0 / 7%),
+      0 3.21px 4.815px -0.803px rgb(0 0 0 / 10%);
+  }
+
+  .photo:nth-child(1) {
+    --x: 35.311;
+    --y: 106.333;
+    --width: 102.722;
+    --height: 154.083;
+  }
+
+  .photo:nth-child(2) {
+    --x: 0;
+    --y: 273.257;
+    --width: 138.033;
+    --height: 207.049;
+  }
+
+  .photo:nth-child(3) {
+    --x: 154.033;
+    --y: 25.681;
+    --width: 102.722;
+    --height: 170.134;
+  }
+
+  .photo:nth-child(4) {
+    --x: 154.033;
+    --y: 208.654;
+    --width: 102.722;
+    --height: 172.541;
+  }
+
+  .photo:nth-child(5) {
+    --x: 154.033;
+    --y: 394.036;
+    --width: 102.722;
+    --height: 128.403;
+  }
+
+  .photo:nth-child(6) {
+    --x: 272.755;
+    --y: 33.706;
+    --width: 102.722;
+    --height: 137.23;
+  }
+
+  .photo:nth-child(7) {
+    --x: 272.755;
+    --y: 183.776;
+    --width: 102.722;
+    --height: 138.033;
+  }
+
+  .photo:nth-child(8) {
+    --x: 272.755;
+    --y: 334.649;
+    --width: 102.722;
+    --height: 154.083;
+  }
+
+  .photo:nth-child(9) {
+    --x: 391.477;
+    --y: 86.271;
+    --width: 128.403;
+    --height: 204.642;
+  }
+
+  .photo:nth-child(10) {
+    --x: 391.477;
+    --y: 303.753;
+    --width: 102.722;
+    --height: 132.415;
+  }
+}
