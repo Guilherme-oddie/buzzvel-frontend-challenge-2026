@@ -1,0 +1,53 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FormField > renders a textarea and preserves description associations when invalid 1`] = `
+<DocumentFragment>
+  <div
+    class="_field_08bc51"
+  >
+    <label
+      class="typography-body1 font-bold text-ink"
+      for="question"
+    >
+      Your question
+    </label>
+    <textarea
+      aria-describedby="question-help question-error"
+      aria-invalid="true"
+      class="typography-body1 _control_08bc51 _textarea_08bc51 custom-control"
+      id="question"
+      rows="4"
+    />
+    <p
+      class="typography-caption text-error"
+      id="question-error"
+      role="alert"
+    >
+      Add your question.
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FormField > renders an input with its label and native props 1`] = `
+<DocumentFragment>
+  <div
+    class="_field_08bc51"
+  >
+    <label
+      class="typography-body1 font-bold text-ink"
+      for="full-name"
+    >
+      Full name
+    </label>
+    <input
+      autocomplete="name"
+      class="typography-body1 _control_08bc51 _input_08bc51"
+      id="full-name"
+      name="fullName"
+      placeholder="Your name"
+      required=""
+    />
+  </div>
+</DocumentFragment>
+`;

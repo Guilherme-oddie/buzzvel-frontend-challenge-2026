@@ -24,6 +24,7 @@
   --color-muted: #656770;
   --color-secondary-text: #6d7384;
   --color-line: #dbdfeb;
+  --color-error: #b42318;
 }
 
 html {

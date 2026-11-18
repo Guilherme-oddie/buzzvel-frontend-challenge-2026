@@ -4,6 +4,8 @@ const iconSources = {
   'arrow-right': { src: '/icons/arrow-right.svg', size: 20 },
   'arrow-right-light': { src: '/icons/arrow-right-light.svg', size: 20 },
   star: { src: '/icons/star.svg', size: 14 },
+  'chat-bubble': { src: '/icons/chat-bubble.svg', size: 24 },
+  clock: { src: '/icons/clock.svg', size: 20 },
 } as const;
 
 export type IconName = keyof typeof iconSources;
