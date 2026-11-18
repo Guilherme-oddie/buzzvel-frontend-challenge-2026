@@ -1,0 +1,232 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TestimonialStatistics > accepts configurable statistics and native props 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="Community results"
+    class="_section_1fc9dd custom-section"
+    id="community-results"
+  >
+    <div
+      class="_layout_1fc9dd"
+    >
+      <figure
+        class="_testimonial_db06f7 _testimonial_1fc9dd"
+      >
+        <div
+          aria-hidden="true"
+          class="_quoteMark_db06f7"
+        >
+          <span
+            aria-hidden="true"
+            class="inline-block shrink-0 bg-current"
+            style="width: 23.7109375px; height: 21.953125px; mask: url("/icons/quote.svg") center / contain no-repeat; -webkit-mask: url("/icons/quote.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+          />
+        </div>
+        <blockquote
+          class="_quotation_db06f7"
+        >
+          <p
+            class="typography-quotes wrap-anywhere"
+          >
+            The lessons are short enough to fit into my week, but detailed enough that I actually leave with something I can use.
+          </p>
+        </blockquote>
+        <figcaption
+          class="_author_db06f7"
+        >
+          <img
+            alt=""
+            class="_portrait_db06f7"
+            data-nimg="1"
+            decoding="async"
+            height="48"
+            loading="lazy"
+            src="/images/testimonial/alex-morgan.jpg"
+            style="color: transparent;"
+            width="48"
+          />
+          <div
+            class="min-w-0 wrap-anywhere"
+          >
+            <p
+              class="typography-subtitle1 _authorName_db06f7 min-[960px]:typography-subtitle2"
+            >
+              Alex Morgan
+            </p>
+            <p
+              class="typography-body1 text-muted"
+            >
+              Product Manager
+            </p>
+          </div>
+        </figcaption>
+      </figure>
+      <dl
+        aria-label="Learning community statistics"
+        class="_statistics_1fc9dd"
+      >
+        <div
+          class="_statistic_58eda6 _statistic_1fc9dd"
+        >
+          <dt
+            class="_label_58eda6"
+          >
+            <span
+              class="typography-body1 block text-secondary-text"
+            >
+              new learners this month
+            </span>
+          </dt>
+          <dd
+            class="_value_58eda6"
+          >
+            <span
+              class="typography-h1 block text-primary"
+            >
+              12K+
+            </span>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`TestimonialStatistics > composes the testimonial and the statistic definitions 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="Learner testimonial and statistics"
+    class="_section_1fc9dd"
+  >
+    <div
+      class="_layout_1fc9dd"
+    >
+      <figure
+        class="_testimonial_db06f7 _testimonial_1fc9dd"
+      >
+        <div
+          aria-hidden="true"
+          class="_quoteMark_db06f7"
+        >
+          <span
+            aria-hidden="true"
+            class="inline-block shrink-0 bg-current"
+            style="width: 23.7109375px; height: 21.953125px; mask: url("/icons/quote.svg") center / contain no-repeat; -webkit-mask: url("/icons/quote.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+          />
+        </div>
+        <blockquote
+          class="_quotation_db06f7"
+        >
+          <p
+            class="typography-quotes wrap-anywhere"
+          >
+            The lessons are short enough to fit into my week, but detailed enough that I actually leave with something I can use.
+          </p>
+        </blockquote>
+        <figcaption
+          class="_author_db06f7"
+        >
+          <img
+            alt=""
+            class="_portrait_db06f7"
+            data-nimg="1"
+            decoding="async"
+            height="48"
+            loading="lazy"
+            src="/images/testimonial/alex-morgan.jpg"
+            style="color: transparent;"
+            width="48"
+          />
+          <div
+            class="min-w-0 wrap-anywhere"
+          >
+            <p
+              class="typography-subtitle1 _authorName_db06f7 min-[960px]:typography-subtitle2"
+            >
+              Alex Morgan
+            </p>
+            <p
+              class="typography-body1 text-muted"
+            >
+              Product Manager
+            </p>
+          </div>
+        </figcaption>
+      </figure>
+      <dl
+        aria-label="Learning community statistics"
+        class="_statistics_1fc9dd"
+      >
+        <div
+          class="_statistic_58eda6 _statistic_1fc9dd"
+        >
+          <dt
+            class="_label_58eda6"
+          >
+            <span
+              class="typography-body1 block text-secondary-text"
+            >
+              active learners
+            </span>
+          </dt>
+          <dd
+            class="_value_58eda6"
+          >
+            <span
+              class="typography-h1 block text-primary"
+            >
+              24K+
+            </span>
+          </dd>
+        </div>
+        <div
+          class="_statistic_58eda6 _statistic_1fc9dd"
+        >
+          <dt
+            class="_label_58eda6"
+          >
+            <span
+              class="typography-body1 block text-secondary-text"
+            >
+              expert-led courses
+            </span>
+          </dt>
+          <dd
+            class="_value_58eda6"
+          >
+            <span
+              class="typography-h1 block text-primary"
+            >
+              120+
+            </span>
+          </dd>
+        </div>
+        <div
+          class="_statistic_58eda6 _statistic_1fc9dd"
+        >
+          <dt
+            class="_label_58eda6"
+          >
+            <span
+              class="typography-body1 block text-secondary-text"
+            >
+              complete their first course
+            </span>
+          </dt>
+          <dd
+            class="_value_58eda6"
+          >
+            <span
+              class="typography-h1 block text-primary"
+            >
+              92%
+            </span>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+</DocumentFragment>
+`;
