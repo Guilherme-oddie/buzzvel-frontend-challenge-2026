@@ -27,4 +27,12 @@ describe('AvatarGroup', () => {
 
     expect(asFragment()).toMatchSnapshot();
   });
+
+  it('renders 40px avatars with accent borders', () => {
+    const { asFragment } = render(
+      <AvatarGroup avatars={avatars} size={40} borderTone="accent" borderWidth={2} />,
+    );
+
+    expect(asFragment()).toMatchSnapshot();
+  });
 });

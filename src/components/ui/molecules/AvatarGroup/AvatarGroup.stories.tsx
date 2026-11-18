@@ -11,6 +11,9 @@ const meta = {
   },
   argTypes: {
     avatars: { control: 'object' },
+    size: { control: 'inline-radio', options: [32, 40] },
+    borderTone: { control: 'inline-radio', options: ['surface', 'accent'] },
+    borderWidth: { control: 'inline-radio', options: [1, 2] },
     'aria-label': { control: 'text' },
     className: { control: false },
   },
@@ -19,7 +22,7 @@ const meta = {
     docs: {
       description: {
         component:
-          'Portraits from the [Hero reference](https://www.figma.com/design/G0zSf6gyynwzEusOCgm2CM/Buzzvel-FE---Test-2026?node-id=2-41), rendered at 32px with an 8px overlap. Use empty image alternatives for decorative portraits and an optional group label when needed.',
+          'Portraits use a shared 8px overlap. The default 32px size and 1px surface border follow the [Hero reference](https://www.figma.com/design/G0zSf6gyynwzEusOCgm2CM/Buzzvel-FE---Test-2026?node-id=2-41); 40px portraits with 2px accent borders support the final CTA. Use empty image alternatives for decorative portraits and an optional group label when needed.',
       },
     },
   },
@@ -29,3 +32,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Playground: Story = {};
+
+export const Large: Story = {
+  args: { size: 40, borderTone: 'accent', borderWidth: 2 },
+};

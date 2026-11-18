@@ -16,7 +16,10 @@ const meta = {
     eyebrow: { control: 'text' },
     description: { control: 'text' },
     headingAs: { control: 'select', options: ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'] },
-    variant: { control: 'select', options: ['hero', 'section', 'featured', 'people', 'contact'] },
+    variant: {
+      control: 'select',
+      options: ['hero', 'section', 'featured', 'people', 'contact', 'cta'],
+    },
     align: { control: 'inline-radio', options: ['left', 'center'] },
     tone: { control: 'inline-radio', options: ['default', 'inverse'] },
     actions: { control: false },
@@ -214,4 +217,31 @@ export const MobileExamples: Story = {
   render: renderExamples,
   globals: { viewport: { value: 'mobile', isRotated: false } },
   play: checkExamples('mobile'),
+};
+
+export const CallToAction: Story = {
+  args: {
+    variant: 'cta',
+    align: 'center',
+    eyebrow: undefined,
+    title: 'What will you learn next?',
+    description: 'Start with one course. Build from there.',
+  },
+  render: (args) => (
+    <div className={args.tone === 'inverse' ? 'bg-primary' : 'bg-yellow-soft'}>
+      <div className="mx-auto w-full max-w-180 px-5 py-12 min-[960px]:px-8">
+        <SectionHeading
+          {...args}
+          actions={
+            <>
+              <Button onClick={onAction}>Explore all courses</Button>
+              <Button variant="secondary" onClick={onAction}>
+                Join Luma
+              </Button>
+            </>
+          }
+        />
+      </div>
+    </div>
+  ),
 };
