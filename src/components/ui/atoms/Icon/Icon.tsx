@@ -3,6 +3,7 @@ const iconSources = {
   close: { src: '/icons/close.svg', size: 24 },
   'arrow-right': { src: '/icons/arrow-right.svg', size: 20 },
   'arrow-right-light': { src: '/icons/arrow-right-light.svg', size: 20 },
+  star: { src: '/icons/star.svg', size: 14 },
 } as const;
 
 export type IconName = keyof typeof iconSources;

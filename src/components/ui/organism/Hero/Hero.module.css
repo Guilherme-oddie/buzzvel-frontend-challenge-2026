@@ -1,0 +1,110 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1120px;
+  margin-inline: auto;
+}
+
+.content {
+  order: 1;
+  min-width: 0;
+}
+
+.media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 362 / 380;
+  isolation: isolate;
+}
+
+.rectangle {
+  position: absolute;
+  z-index: -1;
+  top: 6.315789%;
+  left: 27.762431%;
+  width: 75%;
+  height: 90%;
+  border-radius: 16px;
+  background: #ffcb9f;
+}
+
+.circle {
+  position: absolute;
+  z-index: -1;
+  top: 80%;
+  left: -2.762431%;
+  width: 17.679558%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #e2e8ff;
+}
+
+.photo {
+  position: absolute;
+  inset: 0;
+  margin-inline: 8px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.courseBadge,
+.ratingBadge {
+  position: absolute;
+  max-width: calc(100% + 11px);
+}
+
+.courseBadge {
+  top: 1.578947%;
+  left: 0;
+}
+
+.ratingBadge {
+  top: 78.026316%;
+  right: -3.038674%;
+}
+
+@media (width >= 60rem) {
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 560fr) minmax(0, 500fr);
+    align-items: center;
+    gap: 60px;
+  }
+
+  .content {
+    order: 0;
+  }
+
+  .media {
+    aspect-ratio: 500 / 520;
+  }
+
+  .rectangle {
+    top: 4.615385%;
+    left: 90%;
+    width: 17.8%;
+    height: 90%;
+  }
+
+  .circle {
+    top: 77.5%;
+    left: -8.95948%;
+    width: 21.2%;
+  }
+
+  .photo {
+    margin-inline: 0;
+    border-radius: 24px;
+  }
+
+  .courseBadge {
+    top: 3.076923%;
+    left: -4.4%;
+  }
+
+  .ratingBadge {
+    top: 83.942308%;
+    right: -11.44%;
+  }
+}

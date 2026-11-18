@@ -1,0 +1,168 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RatingStars > renders 1 stars 1`] = `
+<DocumentFragment>
+  <span
+    aria-label="1 star"
+    class="inline-flex shrink-0 gap-0.5 text-accent"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`RatingStars > renders 2 stars 1`] = `
+<DocumentFragment>
+  <span
+    aria-label="2 stars"
+    class="inline-flex shrink-0 gap-0.5 text-accent"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`RatingStars > renders 3 stars 1`] = `
+<DocumentFragment>
+  <span
+    aria-label="3 stars"
+    class="inline-flex shrink-0 gap-0.5 text-accent"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`RatingStars > renders 4 stars 1`] = `
+<DocumentFragment>
+  <span
+    aria-label="4 stars"
+    class="inline-flex shrink-0 gap-0.5 text-accent"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`RatingStars > renders 5 stars 1`] = `
+<DocumentFragment>
+  <span
+    aria-label="5 stars"
+    class="inline-flex shrink-0 gap-0.5 text-accent"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`RatingStars > renders the default count and native props 1`] = `
+<DocumentFragment>
+  <span
+    aria-label="Course rating"
+    class="inline-flex shrink-0 gap-0.5 text-accent text-primary"
+    id="course-stars"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+  </span>
+</DocumentFragment>
+`;

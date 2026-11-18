@@ -1,0 +1,286 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Hero > renders complete fixture 1`] = `
+<DocumentFragment>
+  <section
+    class="bg-surface px-5 py-15 min-[960px]:px-20 min-[960px]:py-25"
+  >
+    <div
+      class="_layout_cbed42"
+    >
+      <div
+        class="_content_cbed42"
+      >
+        <div
+          class="flex min-w-0 flex-col items-start text-left"
+        >
+          <p
+            class="typography-overline text-primary"
+          >
+            Learn at your own pace
+          </p>
+          <div
+            class="flex w-full pt-4 "
+          >
+            <h1
+              class="typography-h1 w-full  text-ink"
+            >
+              Build skills that actually move you forward.
+            </h1>
+          </div>
+          <div
+            class="flex w-full flex-col pt-6 "
+          >
+            <p
+              class="typography-subtitle1 w-full max-w-120 text-muted"
+            >
+              Practical courses taught by people who do the work every day. Learn design, technology, business and more — one focused lesson at a time.
+            </p>
+          </div>
+          <div
+            class="flex max-w-full gap-3 w-full flex-col min-[960px]:flex-row pt-8"
+          >
+            <a
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary"
+              href="#courses"
+            >
+              Explore courses
+            </a>
+            <a
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 border border-line bg-white font-bold text-ink hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary"
+              href="#how-it-works"
+            >
+              See how it works
+            </a>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap items-center justify-center gap-3 pt-8 min-[960px]:justify-start"
+        >
+          <div
+            aria-label="Learner portraits"
+            class="inline-flex shrink-0 items-center -space-x-2 [&>img:nth-child(2)]:relative [&>img:nth-child(2)]:z-10"
+            role="group"
+          >
+            <img
+              alt=""
+              class="box-border h-8 w-8 shrink-0 rounded-full border border-surface object-cover"
+              data-nimg="1"
+              decoding="async"
+              height="32"
+              loading="lazy"
+              src="/images/learners/learner-1.jpg"
+              style="color: transparent;"
+              width="32"
+            />
+            <img
+              alt=""
+              class="box-border h-8 w-8 shrink-0 rounded-full border border-surface object-cover"
+              data-nimg="1"
+              decoding="async"
+              height="32"
+              loading="lazy"
+              src="/images/learners/learner-2.jpg"
+              style="color: transparent;"
+              width="32"
+            />
+            <img
+              alt=""
+              class="box-border h-8 w-8 shrink-0 rounded-full border border-surface object-cover"
+              data-nimg="1"
+              decoding="async"
+              height="32"
+              loading="lazy"
+              src="/images/learners/learner-3.jpg"
+              style="color: transparent;"
+              width="32"
+            />
+          </div>
+          <p
+            class="typography-body1 text-muted"
+          >
+            <strong
+              class="font-bold text-ink"
+            >
+              Trusted by 24,000+
+            </strong>
+             learners
+          </p>
+        </div>
+      </div>
+      <div
+        class="_media_cbed42"
+      >
+        <div
+          aria-hidden="true"
+          class="_rectangle_cbed42"
+        />
+        <div
+          aria-hidden="true"
+          class="_circle_cbed42"
+        />
+        <div
+          class="_photo_cbed42"
+        >
+          <img
+            alt="A learner with glasses working at a laptop in a creative workspace."
+            class="h-full w-full object-cover"
+            data-nimg="1"
+            decoding="async"
+            height="520"
+            loading="lazy"
+            src="/images/hero/learning.jpg"
+            style="color: transparent;"
+            width="500"
+          />
+        </div>
+        <div
+          class="inline-flex items-center rounded-xl bg-white px-4 py-3 shadow-[0_4px_24px_0_#0000001a] gap-3 _courseBadge_cbed42"
+        >
+          <span
+            class="typography-body1 flex h-8 shrink-0 items-center justify-center rounded-lg bg-[#e2e8ff] px-1 font-bold text-primary"
+          >
+            120+
+          </span>
+          <span
+            class="typography-body1 min-w-0 text-ink"
+          >
+            expert-led courses
+          </span>
+        </div>
+        <div
+          class="inline-flex items-center rounded-xl bg-white px-4 py-3 shadow-[0_4px_24px_0_#0000001a] gap-2 _ratingBadge_cbed42"
+        >
+          <span
+            aria-hidden="true"
+            aria-label="5 stars"
+            class="inline-flex shrink-0 gap-0.5 text-accent"
+            role="img"
+          >
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+          </span>
+          <span
+            class="typography-body1 min-w-0 text-ink"
+          >
+            4.9 avg rating
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`Hero > renders custom content with three stars and no … 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="Team learning"
+    class="bg-surface px-5 py-15 min-[960px]:px-20 min-[960px]:py-25 custom-hero"
+    id="team-learning"
+  >
+    <div
+      class="_layout_cbed42"
+    >
+      <div
+        class="_content_cbed42"
+      >
+        <div
+          class="flex min-w-0 flex-col items-start text-left"
+        >
+          <div
+            class="flex w-full  "
+          >
+            <h1
+              class="typography-h1 w-full  text-ink"
+            >
+              Learn with your team
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div
+        class="_media_cbed42"
+      >
+        <div
+          aria-hidden="true"
+          class="_rectangle_cbed42"
+        />
+        <div
+          aria-hidden="true"
+          class="_circle_cbed42"
+        />
+        <div
+          class="_photo_cbed42"
+        >
+          <img
+            alt="A team learning together."
+            class="h-full w-full object-cover"
+            data-nimg="1"
+            decoding="async"
+            height="520"
+            loading="lazy"
+            src="/team.jpg"
+            style="color: transparent;"
+            width="500"
+          />
+        </div>
+        <div
+          class="inline-flex items-center rounded-xl bg-white px-4 py-3 shadow-[0_4px_24px_0_#0000001a] gap-2 _ratingBadge_cbed42"
+        >
+          <span
+            aria-hidden="true"
+            aria-label="3 stars"
+            class="inline-flex shrink-0 gap-0.5 text-accent"
+            role="img"
+          >
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+          </span>
+          <span
+            class="typography-body1 min-w-0 text-ink"
+          >
+            Course rating
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

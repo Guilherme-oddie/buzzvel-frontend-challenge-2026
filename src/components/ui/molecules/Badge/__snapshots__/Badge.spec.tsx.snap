@@ -1,0 +1,39 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Badge > renders a leading slot, compact spacing and native props 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Average course rating"
+    class="inline-flex items-center rounded-xl bg-white px-4 py-3 shadow-[0_4px_24px_0_#0000001a] gap-2 max-w-sm"
+    id="course-rating"
+  >
+    <span
+      aria-hidden="true"
+      class="inline-block shrink-0 bg-current"
+      style="width: 14px; height: 14px; mask: url("/icons/star.svg") center / contain no-repeat; -webkit-mask: url("/icons/star.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+    />
+    <span
+      class="typography-body1 min-w-0 text-ink"
+    >
+      <strong>
+        4.9
+      </strong>
+       avg rating
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge > renders children with default props 1`] = `
+<DocumentFragment>
+  <div
+    class="inline-flex items-center rounded-xl bg-white px-4 py-3 shadow-[0_4px_24px_0_#0000001a] gap-3"
+  >
+    <span
+      class="typography-body1 min-w-0 text-ink"
+    >
+      Expert-led courses
+    </span>
+  </div>
+</DocumentFragment>
+`;
