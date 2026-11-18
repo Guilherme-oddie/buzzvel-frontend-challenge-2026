@@ -1,7 +1,7 @@
 import type { HTMLAttributes, ReactNode } from 'react';
 import { Typography } from '@/components/ui/atoms/Typography';
 
-export type SectionHeadingVariant = 'hero' | 'section' | 'featured' | 'people' | 'contact';
+export type SectionHeadingVariant = 'hero' | 'section' | 'featured' | 'people' | 'contact' | 'cta';
 export type SectionHeadingAlignment = 'left' | 'center';
 export type SectionHeadingTone = 'default' | 'inverse';
 
@@ -54,6 +54,13 @@ const variantStyles = {
     description: 'body1',
     descriptionSpacing: 'pt-4',
     actionsSpacing: 'pt-8',
+  },
+  cta: {
+    title: 'h2',
+    titleSpacing: 'pt-4',
+    description: 'subtitle1',
+    descriptionSpacing: 'pt-4',
+    actionsSpacing: 'pt-10',
   },
 } as const;
 
@@ -125,7 +132,9 @@ export function SectionHeading({
         <div
           className={[
             'flex max-w-full gap-3',
-            variant === 'hero' ? 'w-full flex-col min-[960px]:flex-row' : 'flex-wrap',
+            variant === 'hero' || variant === 'cta'
+              ? 'w-full flex-col min-[960px]:flex-row'
+              : 'flex-wrap',
             styles.actionsSpacing,
             align === 'center' ? 'justify-center' : '',
           ]

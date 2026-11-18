@@ -1,2 +1,8 @@
 export { AvatarGroup, default } from './AvatarGroup';
-export type { AvatarGroupItem, AvatarGroupProps } from './AvatarGroup';
+export type {
+  AvatarGroupBorderTone,
+  AvatarGroupBorderWidth,
+  AvatarGroupItem,
+  AvatarGroupProps,
+  AvatarGroupSize,
+} from './AvatarGroup';
