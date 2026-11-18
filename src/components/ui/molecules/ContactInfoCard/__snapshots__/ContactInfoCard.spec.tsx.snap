@@ -1,0 +1,75 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ContactInfoCard > accepts plain content, an icon and native props 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Office hours"
+    class="flex min-w-0 items-center gap-4 rounded-xl bg-surface p-4 min-[960px]:p-5 custom-card"
+    id="hours"
+    role="group"
+  >
+    <span
+      class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-primary-soft text-primary"
+    >
+      <span
+        aria-hidden="true"
+        class="inline-block shrink-0 bg-current"
+        style="width: 20px; height: 20px; mask: url("/icons/clock.svg") center / contain no-repeat; -webkit-mask: url("/icons/clock.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+      />
+    </span>
+    <div
+      class="flex min-w-0 flex-col gap-0.5 min-[960px]:gap-1"
+    >
+      <p
+        class="typography-body1 text-ink"
+      >
+        Office hours
+      </p>
+      <p
+        class="typography-body1 wrap-anywhere text-muted"
+      >
+        Monday to Friday
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ContactInfoCard > renders a linked email card 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Email"
+    class="flex min-w-0 items-center gap-4 rounded-xl bg-surface p-4 min-[960px]:p-5"
+    role="group"
+  >
+    <span
+      class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-primary-soft text-primary"
+    >
+      <span
+        aria-hidden="true"
+        class="inline-block shrink-0 bg-current"
+        style="width: 24px; height: 24px; mask: url("/icons/chat-bubble.svg") center / contain no-repeat; -webkit-mask: url("/icons/chat-bubble.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+      />
+    </span>
+    <div
+      class="flex min-w-0 flex-col gap-0.5 min-[960px]:gap-1"
+    >
+      <p
+        class="typography-body1 text-ink"
+      >
+        Email
+      </p>
+      <p
+        class="typography-body1 wrap-anywhere text-muted"
+      >
+        <a
+          class="rounded-sm text-primary outline-none hover:underline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
+          href="mailto:contact@luma.com"
+        >
+          contact@luma.com
+        </a>
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
