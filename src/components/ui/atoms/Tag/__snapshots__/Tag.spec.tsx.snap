@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tag > accepts custom children, className and native props 1`] = `
+<DocumentFragment>
+  <span
+    class="typography-body1 _tag_408a2d custom-tag"
+    id="course-level"
+    title="Course difficulty"
+  >
+    <strong>
+      Intermediate
+    </strong>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Tag > renders its label with body1 typography 1`] = `
+<DocumentFragment>
+  <span
+    class="typography-body1 _tag_408a2d"
+  >
+    8 lessons
+  </span>
+</DocumentFragment>
+`;
