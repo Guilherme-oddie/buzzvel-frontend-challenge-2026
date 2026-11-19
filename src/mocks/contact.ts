@@ -43,6 +43,6 @@ export const contactValuesMock = {
 
 export const contactFormMock = {
   title: 'Contact us',
-  description: 'Demo form. No messages are sent or saved.',
+  description: 'Fill out the fields and we will get in touch.',
   labels: contactFormLabelsMock,
 };
