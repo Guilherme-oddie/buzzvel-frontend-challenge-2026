@@ -49,7 +49,9 @@ Work is tracked in the public [GitHub Projects board](https://github.com/users/G
 
 Feature branches use `feat/<issue>-<slug>` and PRs target `dev`. Commits follow `<type>: <description>`; feature PR titles follow `<Type>/#<issue>: <summary> [DEV]`. The [PR template](.github/PULL_REQUEST_TEMPLATE.md) includes a linked ticket, review checklist, test steps and screenshots.
 
-Both `dev` and `main` require PRs and resolved discussions; force pushes and branch deletion are blocked. The release follows `dev` → `release/1.0.0` → `main`, with a merge commit preserving history before tagging.
+Both `dev` and `main` require PRs and resolved discussions; force pushes and branch deletion are blocked.
+
+After QA in `dev`, the single release is prepared on `release/1.0.0` and reviewed through a PR into `main`. A merge commit preserves the development history; the resulting `main` commit is tagged `v1.0.0` and published as a GitHub release. A follow-up PR synchronizes `main` back into `dev`.
 
 Examples: [page implementation PR #36](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/pull/36) ([ticket #18](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/18)) and [release PR #38](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/pull/38) ([ticket #9](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/9)).
 
