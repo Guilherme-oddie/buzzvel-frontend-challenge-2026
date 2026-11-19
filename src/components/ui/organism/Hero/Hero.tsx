@@ -89,6 +89,8 @@ export function Hero({
               width={500}
               height={520}
               className="h-full w-full object-cover"
+              loading="eager"
+              fetchPriority="high"
               unoptimized
             />
           </div>
