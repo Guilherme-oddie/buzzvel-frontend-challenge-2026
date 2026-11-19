@@ -30,6 +30,8 @@ Successful application submissions log their values in the browser console and s
 
 Browser review compares Storybook previews against Figma at desktop, mobile and intermediate widths, including keyboard navigation and form states. Desktop and mobile screenshots are captured manually and attached directly to PR descriptions.
 
+Manual QA findings are recorded as individual comments in [QA ticket #8](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/8), covering location, reproduction steps, observed and expected behavior, and a `Fix verified` checklist. The [avatar overlap](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/8#issuecomment-7008825253) and [contact form copy](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/8#issuecomment-7008829381) reports show verified fixes from this review.
+
 Vitest covers props, variants and snapshots, with focused interaction and mock tests. Each PR records completed checks and any pending visual, interaction or accessibility review.
 
 ## Delivery workflow
