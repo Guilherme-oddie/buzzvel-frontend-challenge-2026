@@ -1,0 +1,197 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HowItWorksSection > accepts custom heading semantics and native props without separate mobile copy 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="Learning process"
+    class="_section_3ab996 custom-section"
+    id="learning-process"
+  >
+    <div
+      class="_layout_3ab996"
+    >
+      <div
+        class="flex min-w-0 flex-col items-center text-center"
+      >
+        <div
+          class="flex w-full  justify-center"
+        >
+          <h3
+            class="typography-h3 w-full max-w-168 text-ink"
+          >
+            Build a learning habit
+          </h3>
+        </div>
+      </div>
+      <ol
+        aria-label="Learning steps"
+        class="_list_3ab996"
+      >
+        <li
+          class="_item_3ab996"
+        >
+          <div
+            class="flex min-w-0 flex-col items-start"
+            id="first-learning-step"
+          >
+            <div
+              aria-hidden="true"
+              class="_marker_1c5165 _blue_1c5165"
+            />
+            <p
+              class="typography-overline mt-6 text-muted"
+            >
+              Step 01
+            </p>
+            <h4
+              class="typography-h5 mt-[9px] text-ink"
+            >
+              Choose your focus
+            </h4>
+            <p
+              class="typography-subtitle2 mt-3.5 text-muted min-[960px]:mt-[13px]"
+            >
+              Find courses based on the skill you want to build, not endless content categories.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`HowItWorksSection > renders one ordered list with the complete fixture and responsive descriptions 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="Less browsing. More learning."
+    class="_section_3ab996"
+  >
+    <div
+      class="_layout_3ab996"
+    >
+      <div
+        class="flex min-w-0 flex-col items-center text-center"
+      >
+        <p
+          class="typography-overline text-primary"
+        >
+          How Luma works
+        </p>
+        <div
+          class="flex w-full pt-4 justify-center"
+        >
+          <h2
+            class="typography-h3 w-full max-w-168 text-ink"
+          >
+            Less browsing. More learning.
+          </h2>
+        </div>
+      </div>
+      <ol
+        aria-label="Learning steps"
+        class="_list_3ab996"
+      >
+        <li
+          class="_item_3ab996"
+        >
+          <div
+            class="flex min-w-0 flex-col items-start"
+          >
+            <div
+              aria-hidden="true"
+              class="_marker_1c5165 _blue_1c5165"
+            />
+            <p
+              class="typography-overline mt-6 text-muted"
+            >
+              Step 01
+            </p>
+            <h3
+              class="typography-h5 mt-[9px] text-ink"
+            >
+              Choose your focus
+            </h3>
+            <p
+              class="typography-subtitle2 mt-3.5 text-muted min-[960px]:mt-[13px]"
+            >
+              Find courses based on the skill you want to build, not endless content categories.
+            </p>
+          </div>
+          <span
+            aria-hidden="true"
+            class="_connector_3ab996 _firstConnector_3ab996"
+          />
+        </li>
+        <li
+          class="_item_3ab996"
+        >
+          <div
+            class="flex min-w-0 flex-col items-start"
+          >
+            <div
+              aria-hidden="true"
+              class="_marker_1c5165 _coral_1c5165"
+            />
+            <p
+              class="typography-overline mt-6 text-muted"
+            >
+              Step 02
+            </p>
+            <h3
+              class="typography-h5 mt-[9px] text-ink"
+            >
+              Learn from experience
+            </h3>
+            <p
+              class="typography-subtitle2 mt-3.5 text-muted min-[960px]:mt-[13px]"
+            >
+              <span
+                class="_mobileDescription_3ab996"
+              >
+                Follow concise lessons created by professionals who actually use these skills.
+              </span>
+              <span
+                class="_desktopDescription_3ab996"
+              >
+                Follow concise lessons created by professionals who use these skills.
+              </span>
+            </p>
+          </div>
+          <span
+            aria-hidden="true"
+            class="_connector_3ab996 _laterConnector_3ab996"
+          />
+        </li>
+        <li
+          class="_item_3ab996"
+        >
+          <div
+            class="flex min-w-0 flex-col items-start"
+          >
+            <div
+              aria-hidden="true"
+              class="_marker_1c5165 _yellow_1c5165"
+            />
+            <p
+              class="typography-overline mt-6 text-muted"
+            >
+              Step 03
+            </p>
+            <h3
+              class="typography-h5 mt-[9px] text-ink"
+            >
+              Put it into practice
+            </h3>
+            <p
+              class="typography-subtitle2 mt-3.5 text-muted min-[960px]:mt-[13px]"
+            >
+              Every course includes practical exercises designed to turn knowledge into action.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+</DocumentFragment>
+`;

@@ -1,4 +1,4 @@
-import type { HTMLAttributes } from 'react';
+import type { HTMLAttributes, ReactNode } from 'react';
 import { Typography } from '@/components/ui/atoms/Typography';
 import styles from './LearningStepCard.module.css';
 
@@ -11,7 +11,7 @@ export interface LearningStepCardProps extends Omit<
   variant?: LearningStepCardVariant;
   stepLabel: string;
   title: string;
-  description: string;
+  description: ReactNode;
   headingAs?: 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 }
 
