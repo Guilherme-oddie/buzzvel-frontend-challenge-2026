@@ -59,7 +59,7 @@ exports[`Hero > renders complete fixture 1`] = `
         >
           <div
             aria-label="Learner portraits"
-            class="inline-flex shrink-0 items-center -space-x-2 [&>img:nth-child(2)]:relative [&>img:nth-child(2)]:z-10"
+            class="inline-flex shrink-0 items-center -space-x-2"
             role="group"
           >
             <img

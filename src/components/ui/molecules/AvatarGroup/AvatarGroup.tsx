@@ -25,10 +25,7 @@ export function AvatarGroup({
   className,
   ...props
 }: AvatarGroupProps) {
-  const classes = [
-    'inline-flex shrink-0 items-center -space-x-2 [&>img:nth-child(2)]:relative [&>img:nth-child(2)]:z-10',
-    className,
-  ]
+  const classes = ['inline-flex shrink-0 items-center -space-x-2', className]
     .filter(Boolean)
     .join(' ');
 
