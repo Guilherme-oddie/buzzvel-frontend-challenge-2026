@@ -6,10 +6,55 @@ Responsive page for Buzzvel's frontend coding challenge.
 
 Next.js App Router, React, TypeScript, Tailwind CSS and pnpm.
 
-## Status
+## Run
 
-Repository initialized. Setup and run instructions will be added with the implementation.
+```sh
+pnpm install
+pnpm dev        # http://127.0.0.1:3000
+pnpm storybook  # http://127.0.0.1:6006
+```
+
+Local checks: `pnpm lint`, `pnpm typecheck`, `pnpm format:check`, `pnpm test`, `pnpm build`, `pnpm build-storybook`.
+
+## Implementation
+
+UI components follow Atomic Design in `src/components/ui/{atoms,molecules,organism}`, with colocated stories and tests. Components were developed in Storybook before page assembly, using shared design primitives, local assets and typed fixtures in `src/mocks`.
+
+The full page is composed through a layout template and a page controller. Form validation uses React Hook Form and Yup; local asynchronous mocks cover pending, success, failure and retry without sending or persisting messages.
+
+Navigation uses real section anchors with focus transferred to the destination. Category links lead to the featured preview; community links lead to people. Unavailable demo pages lead to contact with an announced notice. The application uses native URL fragments, while `Pages / LandingPage` in Storybook keeps navigation inside its canvas. The public form succeeds by default; failure and retry scenarios stay in stories and tests.
+
+Successful application submissions log their values in the browser console and show a native confirmation alert alongside the inline feedback. Storybook previews use Actions and inline feedback without native popups.
+
+## Validation
+
+Browser review compares Storybook previews against Figma at desktop, mobile and intermediate widths, including keyboard navigation and form states. Desktop and mobile screenshots are captured manually and attached directly to PR descriptions.
+
+Manual QA findings are recorded as individual comments in [QA ticket #8](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/8), covering location, reproduction steps, observed and expected behavior, and a `Fix verified` checklist. The [avatar overlap](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/8#issuecomment-7008825253) and [contact form copy](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/8#issuecomment-7008829381) reports show verified fixes from this review.
+
+Vitest covers props, variants and snapshots, with focused interaction and mock tests. Each PR records completed checks and any pending visual, interaction or accessibility review.
+
+Local validation for `v1.0.0` (2026-11-19), using `pnpm test`:
+
+```text
+Test Files  28 passed (28)
+     Tests  136 passed (136)
+```
+
+Lint, type checking, formatting and the Next.js/Storybook builds also passed. Build warnings are recorded in the release PR. Automated browser/E2E runs are not configured; Storybook interaction and accessibility checks remain manual.
+
+## Delivery workflow
+
+Work is tracked in the public [GitHub Projects board](https://github.com/users/Guilherme-oddie/projects/1): Backlog → Ready → In progress → In review → Done. Tickets define context, scope, acceptance criteria, validation and Figma references.
+
+Feature branches use `feat/<issue>-<slug>` and PRs target `dev`. Commits follow `<type>: <description>`; feature PR titles follow `<Type>/#<issue>: <summary> [DEV]`. The [PR template](.github/PULL_REQUEST_TEMPLATE.md) includes a linked ticket, review checklist, test steps and screenshots.
+
+Both `dev` and `main` require PRs and resolved discussions; force pushes and branch deletion are blocked.
+
+After QA in `dev`, the single release is prepared on `release/1.0.0` and reviewed through a PR into `main`. A merge commit preserves the development history; the resulting `main` commit is tagged `v1.0.0` and published as a GitHub release. A follow-up PR synchronizes `main` back into `dev`.
+
+Examples: [page implementation PR #36](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/pull/36) ([ticket #18](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/18)) and [release PR #38](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/pull/38) ([ticket #9](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/9)).
 
 ## AI assistance
 
-Codex assisted with repository setup.
+Codex assisted with setup and implementation.

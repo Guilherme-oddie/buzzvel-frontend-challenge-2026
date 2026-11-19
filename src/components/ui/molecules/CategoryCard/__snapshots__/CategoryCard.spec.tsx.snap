@@ -1,0 +1,85 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CategoryCard > renders with custom content, heading and native props 1`] = `
+<DocumentFragment>
+  <a
+    aria-label="Explore writing courses"
+    class="group flex min-h-50 min-w-0 cursor-pointer flex-col justify-between rounded-2xl border border-line bg-white p-6 text-ink outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary min-[960px]:min-h-65 min-[960px]:p-7 max-w-sm"
+    href="#writing"
+    id="writing-category"
+  >
+    <div>
+      <div
+        class="h-[46.5px] pt-0.5"
+      >
+        <span
+          class="typography-overline inline-flex items-center rounded-md bg-primary-soft px-2 py-1 text-primary"
+        >
+          05
+        </span>
+      </div>
+      <h2
+        class="typography-h5"
+      >
+        Writing
+      </h2>
+      <p
+        class="typography-body1 mt-3 text-secondary-text"
+      >
+        Build a clear writing practice.
+      </p>
+    </div>
+    <span
+      class="typography-body1 flex items-center gap-2 pt-6 font-bold group-hover:text-muted group-focus-visible:text-muted motion-safe:transition-colors"
+    >
+      View courses
+      <span
+        aria-hidden="true"
+        class="inline-block shrink-0 bg-current"
+        style="width: 20px; height: 20px; mask: url("/icons/arrow-right.svg") center / contain no-repeat; -webkit-mask: url("/icons/arrow-right.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+      />
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`CategoryCard > renders with default props 1`] = `
+<DocumentFragment>
+  <a
+    class="group flex min-h-50 min-w-0 cursor-pointer flex-col justify-between rounded-2xl border border-line bg-white p-6 text-ink outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary min-[960px]:min-h-65 min-[960px]:p-7"
+    href="#product-design"
+  >
+    <div>
+      <div
+        class="h-[46.5px] pt-0.5"
+      >
+        <span
+          class="typography-overline inline-flex items-center rounded-md bg-primary-soft px-2 py-1 text-primary"
+        >
+          01
+        </span>
+      </div>
+      <h3
+        class="typography-h5"
+      >
+        Product Design
+      </h3>
+      <p
+        class="typography-body1 mt-3 text-secondary-text"
+      >
+        Turn complex problems into clear, useful experiences.
+      </p>
+    </div>
+    <span
+      class="typography-body1 flex items-center gap-2 pt-6 font-bold group-hover:text-muted group-focus-visible:text-muted motion-safe:transition-colors"
+    >
+      Explore
+      <span
+        aria-hidden="true"
+        class="inline-block shrink-0 bg-current"
+        style="width: 20px; height: 20px; mask: url("/icons/arrow-right.svg") center / contain no-repeat; -webkit-mask: url("/icons/arrow-right.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+      />
+    </span>
+  </a>
+</DocumentFragment>
+`;

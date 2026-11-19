@@ -1,0 +1,190 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navbar > renders with custom props 1`] = `
+<DocumentFragment>
+  <header
+    class="relative z-30 border-b border-line bg-surface"
+  >
+    <div
+      class="mx-auto flex h-17 max-w-7xl items-center justify-between px-5 min-[960px]:grid min-[960px]:h-17.25 min-[960px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] min-[960px]:px-[clamp(24px,6.25vw,80px)]"
+    >
+      <a
+        aria-label="Luma home"
+        class="inline-flex min-h-11 w-fit items-center rounded-sm outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
+        href="/home"
+      >
+        <img
+          alt="Luma"
+          data-nimg="1"
+          decoding="async"
+          height="17"
+          loading="lazy"
+          src="/brand/luma.svg"
+          style="color: transparent;"
+          width="54"
+        />
+      </a>
+      <nav
+        aria-label="Main navigation"
+        class="hidden min-[960px]:block"
+      >
+        <ul
+          class="flex items-center gap-8"
+        >
+          <li
+            class=""
+          >
+            <a
+              aria-current="location"
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
+              href="#courses"
+            >
+              Courses
+            </a>
+          </li>
+          <li
+            class=""
+          >
+            <a
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
+              href="#for-teams"
+            >
+              For Teams
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="hidden items-center gap-2 justify-self-end min-[960px]:flex"
+      >
+        <a
+          class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-5 py-2.5 focus-visible:outline-primary aria-[current=location]:bg-ink"
+          href="/courses"
+        >
+          Browse courses
+        </a>
+      </div>
+      <button
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+        aria-label="Open menu"
+        class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 h-9 w-9 shrink-0 p-1.5 text-ink hover:bg-line/40 focus-visible:outline-primary min-[960px]:hidden"
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+          class="inline-block shrink-0 bg-current"
+          style="width: 24px; height: 24px; mask: url("/icons/menu.svg") center / contain no-repeat; -webkit-mask: url("/icons/menu.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+        />
+      </button>
+    </div>
+  </header>
+</DocumentFragment>
+`;
+
+exports[`Navbar > renders with default props 1`] = `
+<DocumentFragment>
+  <header
+    class="relative z-30 border-b border-line bg-surface"
+  >
+    <div
+      class="mx-auto flex h-17 max-w-7xl items-center justify-between px-5 min-[960px]:grid min-[960px]:h-17.25 min-[960px]:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] min-[960px]:px-[clamp(24px,6.25vw,80px)]"
+    >
+      <a
+        aria-label="Luma home"
+        class="inline-flex min-h-11 w-fit items-center rounded-sm outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
+        href="#top"
+      >
+        <img
+          alt="Luma"
+          data-nimg="1"
+          decoding="async"
+          height="17"
+          loading="lazy"
+          src="/brand/luma.svg"
+          style="color: transparent;"
+          width="54"
+        />
+      </a>
+      <nav
+        aria-label="Main navigation"
+        class="hidden min-[960px]:block"
+      >
+        <ul
+          class="flex items-center gap-8"
+        >
+          <li
+            class=""
+          >
+            <a
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
+              href="#courses"
+            >
+              Courses
+            </a>
+          </li>
+          <li
+            class=""
+          >
+            <a
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
+              href="#for-teams"
+            >
+              For Teams
+            </a>
+          </li>
+          <li
+            class=""
+          >
+            <a
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
+              href="#community"
+            >
+              Community
+            </a>
+          </li>
+          <li
+            class=""
+          >
+            <a
+              class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
+              href="#about"
+            >
+              About
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="hidden items-center gap-2 justify-self-end min-[960px]:flex"
+      >
+        <a
+          class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 p-0 font-normal text-muted hover:text-ink focus-visible:outline-primary px-4 py-2.5 aria-[current=location]:text-primary aria-[current=location]:hover:text-primary"
+          href="#login"
+        >
+          Log in
+        </a>
+        <a
+          class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-5 py-2.5 focus-visible:outline-primary aria-[current=location]:bg-ink"
+          href="#start-learning"
+        >
+          Start learning
+        </a>
+      </div>
+      <button
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+        aria-label="Open menu"
+        class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 h-9 w-9 shrink-0 p-1.5 text-ink hover:bg-line/40 focus-visible:outline-primary min-[960px]:hidden"
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+          class="inline-block shrink-0 bg-current"
+          style="width: 24px; height: 24px; mask: url("/icons/menu.svg") center / contain no-repeat; -webkit-mask: url("/icons/menu.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+        />
+      </button>
+    </div>
+  </header>
+</DocumentFragment>
+`;

@@ -1,0 +1,100 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testimonial > accepts custom content, an author without a portrait or role and native props 1`] = `
+<DocumentFragment>
+  <figure
+    class="_testimonial_db06f7 custom-testimonial"
+    id="learner-story"
+  >
+    <div
+      aria-hidden="true"
+      class="_quoteMark_db06f7"
+    >
+      <span
+        aria-hidden="true"
+        class="inline-block shrink-0 bg-current"
+        style="width: 23.7109375px; height: 21.953125px; mask: url("/icons/quote.svg") center / contain no-repeat; -webkit-mask: url("/icons/quote.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+      />
+    </div>
+    <blockquote
+      class="_quotation_db06f7"
+    >
+      <p
+        class="typography-quotes wrap-anywhere"
+      >
+        I can apply what I learn to my own projects.
+      </p>
+    </blockquote>
+    <figcaption
+      class="_author_db06f7"
+    >
+      <div
+        class="min-w-0 wrap-anywhere"
+      >
+        <p
+          class="typography-subtitle1 _authorName_db06f7 min-[960px]:typography-subtitle2"
+        >
+          Jordan Lee
+        </p>
+      </div>
+    </figcaption>
+  </figure>
+</DocumentFragment>
+`;
+
+exports[`Testimonial > renders the quote and author fixture with shared typography 1`] = `
+<DocumentFragment>
+  <figure
+    class="_testimonial_db06f7"
+  >
+    <div
+      aria-hidden="true"
+      class="_quoteMark_db06f7"
+    >
+      <span
+        aria-hidden="true"
+        class="inline-block shrink-0 bg-current"
+        style="width: 23.7109375px; height: 21.953125px; mask: url("/icons/quote.svg") center / contain no-repeat; -webkit-mask: url("/icons/quote.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+      />
+    </div>
+    <blockquote
+      class="_quotation_db06f7"
+    >
+      <p
+        class="typography-quotes wrap-anywhere"
+      >
+        The lessons are short enough to fit into my week, but detailed enough that I actually leave with something I can use.
+      </p>
+    </blockquote>
+    <figcaption
+      class="_author_db06f7"
+    >
+      <img
+        alt=""
+        class="_portrait_db06f7"
+        data-nimg="1"
+        decoding="async"
+        height="48"
+        loading="lazy"
+        src="/images/testimonial/alex-morgan.jpg"
+        style="color: transparent;"
+        width="48"
+      />
+      <div
+        class="min-w-0 wrap-anywhere"
+      >
+        <p
+          class="typography-subtitle1 _authorName_db06f7 min-[960px]:typography-subtitle2"
+        >
+          Alex Morgan
+        </p>
+        <p
+          class="typography-body1 text-muted"
+        >
+          Product Manager
+        </p>
+      </div>
+    </figcaption>
+  </figure>
+</DocumentFragment>
+`;

@@ -1,0 +1,146 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FeaturedCourse > accepts custom heading semantics, image crop and native props 1`] = `
+<h3
+  class="typography-h3 w-full  text-white"
+>
+  Build better product experiences
+</h3>
+`;
+
+exports[`FeaturedCourse > accepts custom heading semantics, image crop and native props 2`] = `
+<img
+  alt="A team planning a product together."
+  class="_image_9a5b11"
+  data-nimg="fill"
+  decoding="async"
+  loading="lazy"
+  src="/custom-course.jpg"
+  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-position: 25% 50%; color: transparent;"
+/>
+`;
+
+exports[`FeaturedCourse > renders the complete fixture 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="Designing products people understand."
+    class="_section_9a5b11"
+  >
+    <div
+      class="_layout_9a5b11"
+    >
+      <div
+        class="_media_9a5b11"
+      >
+        <div
+          class="_photo_9a5b11"
+        >
+          <img
+            alt="Person writing beside product prototypes and colorful material samples on a workbench."
+            class="_image_9a5b11"
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            src="/images/courses/featured.jpg"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </div>
+        <span
+          class="typography-overline _featuredLabel_9a5b11"
+        >
+          Featured Course
+        </span>
+      </div>
+      <div
+        class="_content_9a5b11"
+      >
+        <div
+          class="flex min-w-0 flex-col items-start text-left"
+        >
+          <p
+            class="typography-overline text-white"
+          >
+            Most popular this month
+          </p>
+          <div
+            class="flex w-full pt-4 "
+          >
+            <h2
+              class="typography-h3 w-full  text-white"
+            >
+              Designing products people understand.
+            </h2>
+          </div>
+          <div
+            class="flex w-full flex-col pt-5 "
+          >
+            <p
+              class="typography-subtitle2 w-full text-white"
+            >
+              Learn how to turn complex workflows into simple, intentional product experiences through research, structure and thoughtful interaction design.
+            </p>
+          </div>
+        </div>
+        <p
+          class="typography-subtitle2 mt-6 text-white"
+        >
+          with Maya Chen · Senior Product Designer
+        </p>
+        <ul
+          aria-label="Course details"
+          class="_metadata_9a5b11"
+        >
+          <li
+            class="_metadataItem_9a5b11"
+          >
+            <span
+              class="typography-body1 _tag_408a2d"
+            >
+              8 lessons
+            </span>
+          </li>
+          <li
+            class="_metadataItem_9a5b11"
+          >
+            <span
+              class="typography-body1 _tag_408a2d"
+            >
+              2h 40min
+            </span>
+          </li>
+          <li
+            class="_metadataItem_9a5b11"
+          >
+            <span
+              class="typography-body1 _tag_408a2d"
+            >
+              Intermediate
+            </span>
+          </li>
+        </ul>
+        <div
+          class="_actions_9a5b11"
+        >
+          <a
+            class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-accent font-bold text-ink hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary _action_9a5b11"
+            href="#course-details"
+          >
+            View course
+          </a>
+          <a
+            class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 h-[50px] px-4 py-3.5 font-bold text-on-primary hover:text-white min-[960px]:h-[52px] focus-visible:outline-on-primary _action_9a5b11 _browseAction_9a5b11"
+            href="#courses"
+          >
+            Browse all courses
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 20px; height: 20px; mask: url("/icons/arrow-right-light.svg") center / contain no-repeat; -webkit-mask: url("/icons/arrow-right-light.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

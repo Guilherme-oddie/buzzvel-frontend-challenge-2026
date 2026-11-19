@@ -1,0 +1,195 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ContactForm > accepts custom content, heading, defaults and native props 1`] = `
+<DocumentFragment>
+  <form
+    aria-label="Course enquiries"
+    class="_form_c2c572 custom-form"
+    id="contact-custom"
+    novalidate=""
+  >
+    <div
+      class="_header_c2c572"
+    >
+      <h2
+        class="typography-h5 _title_c2c572"
+        id="contact-custom-title"
+      >
+        Ask the team
+      </h2>
+      <p
+        class="typography-body1 text-muted"
+      >
+        We can help you choose a course.
+      </p>
+    </div>
+    <fieldset
+      class="_fields_c2c572"
+    >
+      <div
+        class="_field_08bc51"
+      >
+        <label
+          class="typography-body1 font-bold text-ink"
+          for="contact-custom-full-name"
+        >
+          Your full name
+        </label>
+        <input
+          autocomplete="name"
+          class="typography-body1 _control_08bc51 _input_08bc51"
+          id="contact-custom-full-name"
+          name="fullName"
+          placeholder="Your name"
+          required=""
+        />
+      </div>
+      <div
+        class="_field_08bc51"
+      >
+        <label
+          class="typography-body1 font-bold text-ink"
+          for="contact-custom-email"
+        >
+          Email
+        </label>
+        <input
+          autocomplete="email"
+          class="typography-body1 _control_08bc51 _input_08bc51"
+          id="contact-custom-email"
+          name="email"
+          placeholder="youremail@example.com"
+          required=""
+          type="email"
+        />
+      </div>
+      <div
+        class="_field_08bc51"
+      >
+        <label
+          class="typography-body1 font-bold text-ink"
+          for="contact-custom-question"
+        >
+          Your question
+        </label>
+        <textarea
+          class="typography-body1 _control_08bc51 _textarea_08bc51"
+          id="contact-custom-question"
+          name="question"
+          placeholder="Tell us how we can help..."
+          required=""
+        />
+      </div>
+    </fieldset>
+    <button
+      class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary"
+      type="submit"
+    >
+      Ask a question
+    </button>
+    <p
+      aria-atomic="true"
+      aria-live="polite"
+      class="typography-body1 sr-only"
+      role="status"
+    />
+  </form>
+</DocumentFragment>
+`;
+
+exports[`ContactForm > renders with default content 1`] = `
+<DocumentFragment>
+  <form
+    aria-labelledby="contact-default-title"
+    class="_form_c2c572"
+    id="contact-default"
+    novalidate=""
+  >
+    <div
+      class="_header_c2c572"
+    >
+      <h3
+        class="typography-h5 _title_c2c572"
+        id="contact-default-title"
+      >
+        Contact us
+      </h3>
+      <p
+        class="typography-body1 text-muted"
+      >
+        Fill out the fields and we will get in touch.
+      </p>
+    </div>
+    <fieldset
+      class="_fields_c2c572"
+    >
+      <div
+        class="_field_08bc51"
+      >
+        <label
+          class="typography-body1 font-bold text-ink"
+          for="contact-default-full-name"
+        >
+          Full name
+        </label>
+        <input
+          autocomplete="name"
+          class="typography-body1 _control_08bc51 _input_08bc51"
+          id="contact-default-full-name"
+          name="fullName"
+          placeholder="Your name"
+          required=""
+        />
+      </div>
+      <div
+        class="_field_08bc51"
+      >
+        <label
+          class="typography-body1 font-bold text-ink"
+          for="contact-default-email"
+        >
+          Email
+        </label>
+        <input
+          autocomplete="email"
+          class="typography-body1 _control_08bc51 _input_08bc51"
+          id="contact-default-email"
+          name="email"
+          placeholder="youremail@example.com"
+          required=""
+          type="email"
+        />
+      </div>
+      <div
+        class="_field_08bc51"
+      >
+        <label
+          class="typography-body1 font-bold text-ink"
+          for="contact-default-question"
+        >
+          Your question
+        </label>
+        <textarea
+          class="typography-body1 _control_08bc51 _textarea_08bc51"
+          id="contact-default-question"
+          name="question"
+          placeholder="Tell us how we can help..."
+          required=""
+        />
+      </div>
+    </fieldset>
+    <button
+      class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-primary font-bold text-white hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary"
+      type="submit"
+    >
+      Send message
+    </button>
+    <p
+      aria-atomic="true"
+      aria-live="polite"
+      class="typography-body1 sr-only"
+      role="status"
+    />
+  </form>
+</DocumentFragment>
+`;

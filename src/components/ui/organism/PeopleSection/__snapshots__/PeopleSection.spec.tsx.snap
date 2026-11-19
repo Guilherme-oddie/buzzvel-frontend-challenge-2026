@@ -1,0 +1,204 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PeopleSection > accepts custom heading semantics, optional action and native props 1`] = `
+<h3
+  class="typography-h3 w-full  text-ink"
+>
+  Meet our community
+</h3>
+`;
+
+exports[`PeopleSection > renders the complete fixture 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="Meet international students & teachers"
+    class="bg-surface px-5 py-15 min-[960px]:px-20 min-[960px]:py-25"
+  >
+    <div
+      class="_layout_30d9bb"
+    >
+      <div
+        class="flex min-w-0 flex-col items-start text-left _content_30d9bb"
+      >
+        <p
+          class="typography-overline text-primary"
+        >
+          The people
+        </p>
+        <div
+          class="flex w-full pt-2 "
+        >
+          <h2
+            class="typography-h3 w-full  text-ink"
+          >
+            Meet international students & teachers
+          </h2>
+        </div>
+        <div
+          class="flex w-full flex-col pt-6 min-[960px]:pt-8 "
+        >
+          <p
+            class="typography-subtitle1 w-full text-ink min-[960px]:text-muted"
+          >
+            Morbi sit egestas dignissim pharetra, sed amet. Tempus justo senectus risus ac vel, velit, nunc. Eget commodo eget in aliquam facilisi facilisi nec magna hendrerit. Placerat ipsum sit tellus urna, faucibus aenean lorem faucibus integer.
+          </p>
+        </div>
+        <div
+          class="flex max-w-full gap-3 flex-wrap pt-6 min-[960px]:pt-8"
+        >
+          <a
+            class="inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg typography-body1 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 motion-safe:transition-colors disabled:cursor-not-allowed disabled:opacity-50 border border-line bg-white font-bold text-ink hover:brightness-95 px-7 py-3.5 focus-visible:outline-primary"
+            href="#community"
+          >
+            Explore teachers and students
+          </a>
+        </div>
+      </div>
+      <div
+        aria-label="Students and teachers"
+        class="_collage_d5a491 _collage_30d9bb"
+        role="group"
+      >
+        <div
+          aria-hidden="true"
+          class="_circle_d5a491"
+        />
+        <div
+          class="_photoLayer_d5a491"
+        >
+          <div
+            class="_photo_d5a491"
+          >
+            <img
+              alt="Person in a pastel shirt waving at a computer."
+              class="object-cover"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              src="/images/people/person-01.jpg"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="_photo_d5a491"
+          >
+            <img
+              alt="People gathered around laptops at a table."
+              class="object-cover"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              src="/images/people/person-02.jpg"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="_photo_d5a491"
+          >
+            <img
+              alt="Person in a blue hoodie reading with headphones around their neck."
+              class="object-cover"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              src="/images/people/person-03.jpg"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="_photo_d5a491"
+          >
+            <img
+              alt="Two people singing into a microphone beside a music stand."
+              class="object-cover"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              src="/images/people/person-04.jpg"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="_photo_d5a491"
+          >
+            <img
+              alt="Person taking notes beside an open book and a tablet."
+              class="object-cover"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              src="/images/people/person-05.jpg"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="_photo_d5a491"
+          >
+            <img
+              alt="Person in a graduation cap and gown holding a red folder."
+              class="object-cover"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              src="/images/people/person-06.jpg"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="_photo_d5a491"
+          >
+            <img
+              alt="Person seated at a kitchen table with a laptop and books."
+              class="object-cover"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              src="/images/people/person-07.jpg"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="_photo_d5a491"
+          >
+            <img
+              alt="Person watching a speaker on a desktop computer."
+              class="object-cover"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              src="/images/people/person-08.jpg"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="_photo_d5a491"
+          >
+            <img
+              alt="Person in a yellow shirt holding binders outdoors."
+              class="object-cover"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              src="/images/people/person-09.jpg"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="_photo_d5a491"
+          >
+            <img
+              alt="Person in a black headscarf holding books and a takeaway cup."
+              class="object-cover"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              src="/images/people/person-10.jpg"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

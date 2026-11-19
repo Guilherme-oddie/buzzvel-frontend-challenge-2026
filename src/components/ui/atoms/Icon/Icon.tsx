@@ -1,0 +1,41 @@
+const iconSources = {
+  menu: { src: '/icons/menu.svg', size: 24 },
+  close: { src: '/icons/close.svg', size: 24 },
+  'arrow-right': { src: '/icons/arrow-right.svg', size: 20 },
+  'arrow-right-light': { src: '/icons/arrow-right-light.svg', size: 20 },
+  star: { src: '/icons/star.svg', size: 14 },
+  'chat-bubble': { src: '/icons/chat-bubble.svg', size: 24 },
+  clock: { src: '/icons/clock.svg', size: 20 },
+  quote: {
+    src: '/icons/quote.svg',
+    size: { width: 23.7109375, height: 21.953125 },
+  },
+} as const;
+
+export type IconName = keyof typeof iconSources;
+
+export interface IconProps {
+  name: IconName;
+}
+
+export function Icon({ name }: IconProps) {
+  const icon = iconSources[name];
+  const dimensions =
+    typeof icon.size === 'number' ? { width: icon.size, height: icon.size } : icon.size;
+  const mask = `url("${icon.src}") center / contain no-repeat`;
+
+  return (
+    <span
+      aria-hidden
+      className="inline-block shrink-0 bg-current"
+      style={{
+        ...dimensions,
+        mask,
+        WebkitMask: mask,
+        forcedColorAdjust: 'preserve-parent-color',
+      }}
+    />
+  );
+}
+
+export default Icon;

@@ -1,0 +1,45 @@
+@import 'tailwindcss' source('../');
+@import '../styles/typography.css';
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter-latin-variable.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: 'Inter', Arial, sans-serif;
+  --color-primary: #3157f6;
+  --color-primary-soft: #e2e8ff;
+  --color-coral: #ff704d;
+  --color-coral-soft: #ffcb9f;
+  --color-yellow: #e9d659;
+  --color-yellow-soft: #fff1c2;
+  --color-accent: #ffee7e;
+  --color-on-primary: #e7e7ec;
+  --color-text-white-tertiary: #9e9faa;
+  --color-surface: #f9f8f3;
+  --color-ink: #171b2c;
+  --color-muted: #656770;
+  --color-secondary-text: #6d7384;
+  --color-line: #dbdfeb;
+  --color-error: #b42318;
+}
+
+html {
+  color-scheme: light;
+  background: var(--color-surface);
+  font-family: var(--font-sans);
+}
+
+body {
+  margin: 0;
+  color: var(--color-ink);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}

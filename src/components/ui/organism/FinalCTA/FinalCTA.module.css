@@ -1,0 +1,160 @@
+.section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding-block: 60px;
+  background: var(--color-yellow-soft);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  max-width: 720px;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 20px;
+  margin-inline: auto;
+}
+
+.decorations {
+  display: none;
+  pointer-events: none;
+}
+
+.action {
+  max-width: 100%;
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+@media (width >= 60rem) {
+  .section {
+    padding-block: 100px;
+  }
+
+  .content {
+    padding-inline: 32px;
+  }
+
+  .decorations {
+    position: absolute;
+    z-index: 0;
+    display: block;
+    inset: 0;
+  }
+
+  .decorations > * {
+    position: absolute;
+    top: calc(var(--y) / 469.5 * 100%);
+    left: calc(var(--x) / 1280 * 100%);
+    transform-origin: top left;
+  }
+
+  .decorations > span {
+    width: var(--size);
+    height: var(--size);
+  }
+
+  .bold {
+    --x: 272;
+    --y: 360.062;
+  }
+
+  .codepen {
+    --x: 1080;
+    --y: 180.374;
+  }
+
+  .chatBubble {
+    --x: 141;
+    --y: 214.062;
+  }
+
+  .dashboard {
+    --x: 1016;
+    --y: 82.062;
+  }
+
+  .cash {
+    --x: 963;
+    --y: 381.062;
+  }
+
+  .outlineCircleTop,
+  .outlineCircleBottom,
+  .outlineCircleRight {
+    border: 1px solid var(--color-coral-soft);
+    border-radius: 50%;
+  }
+
+  .circleBottomLeft,
+  .circleBottomRight {
+    border-radius: 50%;
+    background: var(--color-coral-soft);
+  }
+
+  .squareTopRight,
+  .squareLeft,
+  .outlineSquareTop {
+    border-radius: 8px;
+    transform: rotate(12deg);
+  }
+
+  .squareTopRight,
+  .squareLeft {
+    background: var(--color-coral-soft);
+  }
+
+  .outlineCircleTop {
+    --x: 22;
+    --y: 16.062;
+    --size: 108px;
+  }
+
+  .circleBottomLeft {
+    --x: 56;
+    --y: 373.062;
+    --size: 120px;
+  }
+
+  .squareTopRight {
+    --x: 1167.922;
+    --y: -23.938;
+    --size: 115.057px;
+  }
+
+  .outlineCircleBottom {
+    --x: 1208;
+    --y: 429.094;
+    --size: 32px;
+  }
+
+  .squareLeft {
+    --x: -21.357;
+    --y: 230.062;
+    --size: 56px;
+  }
+
+  .circleBottomRight {
+    --x: 1064;
+    --y: 468.374;
+    --size: 40px;
+  }
+
+  .outlineCircleRight {
+    --x: 877;
+    --y: 43.062;
+    --size: 32px;
+  }
+
+  .outlineSquareTop {
+    --x: 328.643;
+    --y: 42.374;
+    --size: 56px;
+
+    border: 1px solid var(--color-coral-soft);
+  }
+}
