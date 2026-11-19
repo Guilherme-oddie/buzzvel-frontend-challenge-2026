@@ -34,15 +34,24 @@ Manual QA findings are recorded as individual comments in [QA ticket #8](https:/
 
 Vitest covers props, variants and snapshots, with focused interaction and mock tests. Each PR records completed checks and any pending visual, interaction or accessibility review.
 
+Local validation for `v1.0.0` (2026-11-19), using `pnpm test`:
+
+```text
+Test Files  28 passed (28)
+     Tests  136 passed (136)
+```
+
+Lint, type checking, formatting and the Next.js/Storybook builds also passed. Build warnings are recorded in the release PR. Automated browser/E2E runs are not configured; Storybook interaction and accessibility checks remain manual.
+
 ## Delivery workflow
 
 Work is tracked in the public [GitHub Projects board](https://github.com/users/Guilherme-oddie/projects/1): Backlog → Ready → In progress → In review → Done. Tickets define context, scope, acceptance criteria, validation and Figma references.
 
 Feature branches use `feat/<issue>-<slug>` and PRs target `dev`. Commits follow `<type>: <description>`; feature PR titles follow `<Type>/#<issue>: <summary> [DEV]`. The [PR template](.github/PULL_REQUEST_TEMPLATE.md) includes a linked ticket, review checklist, test steps and screenshots.
 
-Both `dev` and `main` require PRs and resolved discussions; force pushes and branch deletion are blocked. A single release to `main` is planned after final page validation.
+Both `dev` and `main` require PRs and resolved discussions; force pushes and branch deletion are blocked. The release follows `dev` → `release/1.0.0` → `main`, with a merge commit preserving history before tagging.
 
-Example: [Footer ticket #16](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/16) and [PR #34](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/pull/34), including manually attached desktop and mobile screenshots.
+Examples: [page implementation PR #36](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/pull/36) ([ticket #18](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/18)) and [release PR #38](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/pull/38) ([ticket #9](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/9)).
 
 ## AI assistance
 
