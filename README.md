@@ -20,7 +20,11 @@ Local checks: `pnpm lint`, `pnpm typecheck`, `pnpm format:check`, `pnpm test`, `
 
 UI components follow Atomic Design in `src/components/ui/{atoms,molecules,organism}`, with colocated stories and tests. Components were developed in Storybook before page assembly, using shared design primitives, local assets and typed fixtures in `src/mocks`.
 
-Form validation uses React Hook Form and Yup. Local asynchronous mocks cover pending, success, failure and retry without sending or persisting messages. Page assembly and demo-link behavior are tracked in [issue #18](https://github.com/Guilherme-oddie/buzzvel-frontend-challenge-2026/issues/18).
+The full page is composed through a layout template and a page controller. Form validation uses React Hook Form and Yup; local asynchronous mocks cover pending, success, failure and retry without sending or persisting messages.
+
+Navigation uses real section anchors with focus transferred to the destination. Category links lead to the featured preview; community links lead to people. Unavailable demo pages lead to contact with an announced notice. The application uses native URL fragments, while `Pages / LandingPage` in Storybook keeps navigation inside its canvas. The public form succeeds by default; failure and retry scenarios stay in stories and tests.
+
+Successful application submissions log their values in the browser console and show a native confirmation alert alongside the inline feedback. Storybook previews use Actions and inline feedback without native popups.
 
 ## Validation
 
