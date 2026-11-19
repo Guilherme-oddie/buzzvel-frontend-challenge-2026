@@ -18,8 +18,11 @@ export function NavigationList({
 
   return (
     <ul className={isVertical ? 'flex flex-col' : 'flex items-center gap-8'}>
-      {items.map((item) => (
-        <li key={item.href} className={isVertical ? 'border-b border-line/60 last:border-0' : ''}>
+      {items.map((item, index) => (
+        <li
+          key={`${item.href}-${index}`}
+          className={isVertical ? 'border-b border-line/60 last:border-0' : ''}
+        >
           <Button
             href={item.href}
             variant="text"

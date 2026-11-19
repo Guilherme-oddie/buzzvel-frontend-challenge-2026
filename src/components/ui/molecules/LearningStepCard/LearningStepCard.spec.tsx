@@ -12,7 +12,7 @@ describe('LearningStepCard', () => {
         ...learningStepsMock[1],
         stepLabel: 'Step 04',
         title: 'Build your own project',
-        description: 'Put your new skills to work in a personal project.',
+        description: <strong>Put your new skills to work in a personal project.</strong>,
         headingAs: 'h4',
         id: 'project-step',
         className: 'max-w-sm',

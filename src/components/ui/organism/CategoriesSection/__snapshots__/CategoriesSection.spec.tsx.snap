@@ -1,0 +1,259 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CategoriesSection > accepts custom content, heading semantics and native section and card props 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="Course categories"
+    class="_section_59bd8e custom-section"
+    id="course-categories"
+  >
+    <div
+      class="_layout_59bd8e"
+    >
+      <div
+        class="flex min-w-0 flex-col items-start text-left _heading_59bd8e"
+      >
+        <div
+          class="flex w-full  "
+        >
+          <h3
+            class="typography-h3 w-full  text-ink"
+          >
+            Choose a creative skill
+          </h3>
+        </div>
+      </div>
+      <div
+        class="_grid_59bd8e"
+      >
+        <a
+          class="group flex min-h-50 min-w-0 cursor-pointer flex-col justify-between rounded-2xl border border-line bg-white p-6 text-ink outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary min-[960px]:min-h-65 min-[960px]:p-7"
+          href="#design-courses"
+          id="design-category"
+        >
+          <div>
+            <div
+              class="h-[46.5px] pt-0.5"
+            >
+              <span
+                class="typography-overline inline-flex items-center rounded-md bg-primary-soft px-2 py-1 text-primary"
+              >
+                01
+              </span>
+            </div>
+            <h4
+              class="typography-h5"
+            >
+              Product Design
+            </h4>
+            <p
+              class="typography-body1 mt-3 text-secondary-text"
+            >
+              Turn complex problems into clear, useful experiences.
+            </p>
+          </div>
+          <span
+            class="typography-body1 flex items-center gap-2 pt-6 font-bold group-hover:text-muted group-focus-visible:text-muted motion-safe:transition-colors"
+          >
+            Explore
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 20px; height: 20px; mask: url("/icons/arrow-right.svg") center / contain no-repeat; -webkit-mask: url("/icons/arrow-right.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`CategoriesSection > renders the complete fixture 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="Learn something worth knowing."
+    class="_section_59bd8e"
+  >
+    <div
+      class="_layout_59bd8e"
+    >
+      <div
+        class="flex min-w-0 flex-col items-start text-left _heading_59bd8e"
+      >
+        <p
+          class="typography-overline text-primary"
+        >
+          Find your next skill
+        </p>
+        <div
+          class="flex w-full pt-4 "
+        >
+          <h2
+            class="typography-h3 w-full  text-ink"
+          >
+            Learn something worth knowing.
+          </h2>
+        </div>
+        <div
+          class="flex w-full flex-col pt-4 "
+        >
+          <p
+            class="typography-subtitle1 w-full text-muted"
+          >
+            Short, practical courses designed around skills you can put to work immediately.
+          </p>
+        </div>
+      </div>
+      <div
+        class="_grid_59bd8e"
+      >
+        <a
+          class="group flex min-h-50 min-w-0 cursor-pointer flex-col justify-between rounded-2xl border border-line bg-white p-6 text-ink outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary min-[960px]:min-h-65 min-[960px]:p-7"
+          href="#product-design"
+        >
+          <div>
+            <div
+              class="h-[46.5px] pt-0.5"
+            >
+              <span
+                class="typography-overline inline-flex items-center rounded-md bg-primary-soft px-2 py-1 text-primary"
+              >
+                01
+              </span>
+            </div>
+            <h3
+              class="typography-h5"
+            >
+              Product Design
+            </h3>
+            <p
+              class="typography-body1 mt-3 text-secondary-text"
+            >
+              Turn complex problems into clear, useful experiences.
+            </p>
+          </div>
+          <span
+            class="typography-body1 flex items-center gap-2 pt-6 font-bold group-hover:text-muted group-focus-visible:text-muted motion-safe:transition-colors"
+          >
+            Explore
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 20px; height: 20px; mask: url("/icons/arrow-right.svg") center / contain no-repeat; -webkit-mask: url("/icons/arrow-right.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+          </span>
+        </a>
+        <a
+          class="group flex min-h-50 min-w-0 cursor-pointer flex-col justify-between rounded-2xl border border-line bg-white p-6 text-ink outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary min-[960px]:min-h-65 min-[960px]:p-7"
+          href="#technology"
+        >
+          <div>
+            <div
+              class="h-[46.5px] pt-0.5"
+            >
+              <span
+                class="typography-overline inline-flex items-center rounded-md bg-primary-soft px-2 py-1 text-primary"
+              >
+                02
+              </span>
+            </div>
+            <h3
+              class="typography-h5"
+            >
+              Technology
+            </h3>
+            <p
+              class="typography-body1 mt-3 text-secondary-text"
+            >
+              Build a stronger understanding of the tools shaping digital products.
+            </p>
+          </div>
+          <span
+            class="typography-body1 flex items-center gap-2 pt-6 font-bold group-hover:text-muted group-focus-visible:text-muted motion-safe:transition-colors"
+          >
+            Explore
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 20px; height: 20px; mask: url("/icons/arrow-right.svg") center / contain no-repeat; -webkit-mask: url("/icons/arrow-right.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+          </span>
+        </a>
+        <a
+          class="group flex min-h-50 min-w-0 cursor-pointer flex-col justify-between rounded-2xl border border-line bg-white p-6 text-ink outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary min-[960px]:min-h-65 min-[960px]:p-7"
+          href="#business"
+        >
+          <div>
+            <div
+              class="h-[46.5px] pt-0.5"
+            >
+              <span
+                class="typography-overline inline-flex items-center rounded-md bg-primary-soft px-2 py-1 text-primary"
+              >
+                03
+              </span>
+            </div>
+            <h3
+              class="typography-h5"
+            >
+              Business
+            </h3>
+            <p
+              class="typography-body1 mt-3 text-secondary-text"
+            >
+              Develop practical skills for better decisions and stronger teams.
+            </p>
+          </div>
+          <span
+            class="typography-body1 flex items-center gap-2 pt-6 font-bold group-hover:text-muted group-focus-visible:text-muted motion-safe:transition-colors"
+          >
+            Explore
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 20px; height: 20px; mask: url("/icons/arrow-right.svg") center / contain no-repeat; -webkit-mask: url("/icons/arrow-right.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+          </span>
+        </a>
+        <a
+          class="group flex min-h-50 min-w-0 cursor-pointer flex-col justify-between rounded-2xl border border-line bg-white p-6 text-ink outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary min-[960px]:min-h-65 min-[960px]:p-7"
+          href="#creative"
+        >
+          <div>
+            <div
+              class="h-[46.5px] pt-0.5"
+            >
+              <span
+                class="typography-overline inline-flex items-center rounded-md bg-primary-soft px-2 py-1 text-primary"
+              >
+                04
+              </span>
+            </div>
+            <h3
+              class="typography-h5"
+            >
+              Creative
+            </h3>
+            <p
+              class="typography-body1 mt-3 text-secondary-text"
+            >
+              Explore new ways to communicate, create and tell stories.
+            </p>
+          </div>
+          <span
+            class="typography-body1 flex items-center gap-2 pt-6 font-bold group-hover:text-muted group-focus-visible:text-muted motion-safe:transition-colors"
+          >
+            Explore
+            <span
+              aria-hidden="true"
+              class="inline-block shrink-0 bg-current"
+              style="width: 20px; height: 20px; mask: url("/icons/arrow-right.svg") center / contain no-repeat; -webkit-mask: url("/icons/arrow-right.svg") center / contain no-repeat; forced-color-adjust: preserve-parent-color;"
+            />
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

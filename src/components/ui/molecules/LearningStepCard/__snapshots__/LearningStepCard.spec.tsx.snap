@@ -25,7 +25,9 @@ exports[`LearningStepCard > renders with custom content, variant, heading and na
     <p
       class="typography-subtitle2 mt-3.5 text-muted min-[960px]:mt-[13px]"
     >
-      Put your new skills to work in a personal project.
+      <strong>
+        Put your new skills to work in a personal project.
+      </strong>
     </p>
   </div>
 </DocumentFragment>
